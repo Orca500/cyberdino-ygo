@@ -427,3 +427,17 @@ document.addEventListener("input", renderCards);
 document.addEventListener("change", renderCards);
 
 loadCards();
+
+
+
+const lightboxImage = document.getElementById("lightboxImage");
+
+if (lightboxImage) {
+    lightboxImage.draggable = false;
+
+    ["dragstart","mousedown","selectstart"].forEach(eventName => {
+        lightboxImage.addEventListener(eventName, e => {
+            e.preventDefault();
+        });
+    });
+}
