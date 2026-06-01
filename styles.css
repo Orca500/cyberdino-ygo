@@ -115,3 +115,67 @@ body {
 #lightbox img::-moz-selection {
     background: transparent;
 }
+
+
+#rulesButton{
+    position:absolute;
+    top:0;
+    right:0;
+    width:200px;
+    height:200px;
+    z-index:2;
+}
+
+#rulesButton img{
+    width:200px;
+    height:200px;
+    display:block;
+}
+
+#rulesText{
+    position:absolute;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:2rem;
+    font-weight:bold;
+    color:#000;
+    text-shadow:
+        -2px -2px 0 #fff,
+         2px -2px 0 #fff,
+        -2px  2px 0 #fff,
+         2px  2px 0 #fff;
+}
+
+#rulesText:hover{
+    text-shadow:
+        -2px -2px 0 #7ec8ff,
+         2px -2px 0 #7ec8ff,
+        -2px  2px 0 #7ec8ff,
+         2px  2px 0 #7ec8ff;
+}
+
+#lightbox.rules-mode{
+    display:flex;
+}
+
+#lightbox.rules-mode #lightboxImage{
+    display:none;
+}
+
+#rulesContent{
+    display:none;
+    background:#3a3a3a;
+    color:#fff;
+    padding:24px;
+    max-width:700px;
+    width:80%;
+    border-radius:8px;
+    line-height:1.6;
+}
+
+#lightbox.rules-mode #rulesContent{
+    display:block;
+}
