@@ -143,6 +143,19 @@ function renderCards() {
         );
     }
 
+    const searchDesc =
+        document.getElementById("searchDesc")
+            .value
+            .toLowerCase();
+
+    if (searchDesc) {
+        filtered = filtered.filter(card =>
+            (card.desc || "")
+                .toLowerCase()
+                .includes(searchDesc)
+        );
+    }
+
     const category =
         document.getElementById("cardCategory")
             .value;
