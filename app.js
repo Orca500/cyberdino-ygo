@@ -299,7 +299,27 @@ if (monsterClass) {
         }
     });
 
-    filtered.forEach(card => {
+    
+const imageObserver = new IntersectionObserver(entries => {
+
+    entries.forEach(entry => {
+
+        if (!entry.isIntersecting) return;
+
+        const img = entry.target;
+
+        if (img.dataset.src) {
+            img.src = img.dataset.src;
+            delete img.dataset.src;
+        }
+
+        imageObserver.unobserve(img);
+    });
+}, {
+    rootMargin: "200px"
+});
+
+filtered.forEach(card => {
 
         const div =
             document.createElement("div");
@@ -310,7 +330,8 @@ if (monsterClass) {
             document.createElement("img");
 
         img.loading = "lazy";
-        img.src = card.image;
+        img.dataset.src = card.image;
+        imageObserver.observe(img);
         img.alt = card.name;
 
         div.appendChild(img);
