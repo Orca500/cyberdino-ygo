@@ -66,9 +66,6 @@ function populateFilters() {
     });
 
 const attributeSelect =
-    document.getElementById("attribute");
-
-    const attributeSelect =
         document.getElementById("attribute");
 
     [...attributes]
