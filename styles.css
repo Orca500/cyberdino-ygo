@@ -64,7 +64,7 @@ header {
     font-weight: bold;
 }
 
-.hidden {
+#lightbox.hidden {
     display: none;
 }
 
