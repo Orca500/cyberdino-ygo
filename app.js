@@ -5,6 +5,9 @@ async function loadCards() {
     cards = await response.json();
 
     populateFilters();
+
+    document.getElementById("sort").value = "nameAsc";
+
     renderCards();
 }
 
@@ -53,6 +56,43 @@ function populateFilters() {
         });
 }
 
+function applyNumericFilter(cards, field, inputId, opId) {
+
+    const value =
+        document.getElementById(inputId).value;
+
+    if (value === "") {
+        return cards;
+    }
+
+    const number = Number(value);
+
+    const op =
+        document.getElementById(opId).value;
+
+    return cards.filter(card => {
+
+        if (card[field] === null ||
+            card[field] === undefined) {
+            return false;
+        }
+
+        switch (op) {
+            case "=":
+                return card[field] === number;
+
+            case ">=":
+                return card[field] >= number;
+
+            case "<=":
+                return card[field] <= number;
+
+            default:
+                return true;
+        }
+    });
+}
+
 function renderCards() {
 
     const grid =
@@ -64,8 +104,8 @@ function renderCards() {
 
     const search =
         document.getElementById("search")
-        .value
-        .toLowerCase();
+            .value
+            .toLowerCase();
 
     if (search) {
         filtered = filtered.filter(card =>
@@ -74,6 +114,133 @@ function renderCards() {
                 .includes(search)
         );
     }
+
+    const category =
+        document.getElementById("cardCategory")
+            .value;
+
+    if (category) {
+
+        filtered = filtered.filter(card => {
+
+            if (category === "Monster") {
+                return card.type.includes("Monster");
+            }
+
+            if (category === "Spell") {
+                return card.type.includes("Spell");
+            }
+
+            if (category === "Trap") {
+                return card.type.includes("Trap");
+            }
+
+            return true;
+        });
+    }
+
+    const monsterType =
+        document.getElementById("monsterType")
+            .value;
+
+    if (monsterType) {
+        filtered = filtered.filter(
+            card => card.race === monsterType
+        );
+    }
+
+    const attribute =
+        document.getElementById("attribute")
+            .value;
+
+    if (attribute) {
+        filtered = filtered.filter(
+            card => card.attribute === attribute
+        );
+    }
+
+    filtered =
+        applyNumericFilter(
+            filtered,
+            "points",
+            "pointsFilter",
+            "pointsOp"
+        );
+
+    filtered =
+        applyNumericFilter(
+            filtered,
+            "level",
+            "levelFilter",
+            "levelOp"
+        );
+
+    filtered =
+        applyNumericFilter(
+            filtered,
+            "atk",
+            "atkFilter",
+            "atkOp"
+        );
+
+    filtered =
+        applyNumericFilter(
+            filtered,
+            "def",
+            "defFilter",
+            "defOp"
+        );
+
+    const sort =
+        document.getElementById("sort")
+            .value;
+
+    filtered.sort((a, b) => {
+
+        switch (sort) {
+
+            case "nameAsc":
+                return a.name.localeCompare(b.name);
+
+            case "nameDesc":
+                return b.name.localeCompare(a.name);
+
+            case "pointsAsc":
+                return (a.points ?? -Infinity) -
+                       (b.points ?? -Infinity);
+
+            case "pointsDesc":
+                return (b.points ?? -Infinity) -
+                       (a.points ?? -Infinity);
+
+            case "levelAsc":
+                return (a.level ?? -Infinity) -
+                       (b.level ?? -Infinity);
+
+            case "levelDesc":
+                return (b.level ?? -Infinity) -
+                       (a.level ?? -Infinity);
+
+            case "atkAsc":
+                return (a.atk ?? -Infinity) -
+                       (b.atk ?? -Infinity);
+
+            case "atkDesc":
+                return (b.atk ?? -Infinity) -
+                       (a.atk ?? -Infinity);
+
+            case "defAsc":
+                return (a.def ?? -Infinity) -
+                       (b.def ?? -Infinity);
+
+            case "defDesc":
+                return (b.def ?? -Infinity) -
+                       (a.def ?? -Infinity);
+
+            default:
+                return a.name.localeCompare(b.name);
+        }
+    });
 
     filtered.forEach(card => {
 
