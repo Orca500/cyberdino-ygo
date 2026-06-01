@@ -28,7 +28,7 @@ header {
 
 #cardGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 12px;
     padding: 20px;
 }
@@ -64,21 +64,22 @@ header {
     font-weight: bold;
 }
 
-#lightbox.hidden {
-    display: none;
-}
-
 #lightbox {
+    display: none;
+
     position: fixed;
     inset: 0;
 
-    background: rgba(0,0,0,.85);
+    background: rgba(0, 0, 0, 0.85);
 
-    display: flex;
     align-items: center;
     justify-content: center;
 
-    z-index: 999;
+    z-index: 9999;
+}
+
+#lightbox.active {
+    display: flex;
 }
 
 #lightbox img {
