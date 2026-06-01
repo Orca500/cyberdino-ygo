@@ -20,9 +20,6 @@
         placeholder="Search card name..."
     >
 
-    <input type="number" id="minPoints" placeholder="Min Points">
-    <input type="number" id="maxPoints" placeholder="Max Points">
-
     <select id="cardCategory">
         <option value="">All Categories</option>
         <option>Monster</option>
@@ -38,30 +35,61 @@
         <option value="">All Attributes</option>
     </select>
 
-    <input type="number" id="minLevel" placeholder="Min Level">
-    <input type="number" id="maxLevel" placeholder="Max Level">
+    <div>
+        <label>Points</label>
+        <select id="pointsOp">
+            <option value="=">=</option>
+            <option value=">=">>=</option>
+            <option value="<="><=</option>
+        </select>
+        <input type="number" id="pointsFilter">
+    </div>
 
-    <input type="number" id="minAtk" placeholder="Min ATK">
-    <input type="number" id="maxAtk" placeholder="Max ATK">
+    <div>
+        <label>Level</label>
+        <select id="levelOp">
+            <option value="=">=</option>
+            <option value=">=">>=</option>
+            <option value="<="><=</option>
+        </select>
+        <input type="number" id="levelFilter">
+    </div>
 
-    <input type="number" id="minDef" placeholder="Min DEF">
-    <input type="number" id="maxDef" placeholder="Max DEF">
+    <div>
+        <label>ATK</label>
+        <select id="atkOp">
+            <option value="=">=</option>
+            <option value=">=">>=</option>
+            <option value="<="><=</option>
+        </select>
+        <input type="number" id="atkFilter">
+    </div>
 
-    <select id="extraDeck">
-        <option value="">All Extra Deck Types</option>
-        <option>Fusion</option>
-        <option>Synchro</option>
-        <option>Xyz</option>
-        <option>Link</option>
-        <option>Pendulum</option>
-    </select>
+    <div>
+        <label>DEF</label>
+        <select id="defOp">
+            <option value="=">=</option>
+            <option value=">=">>=</option>
+            <option value="<="><=</option>
+        </select>
+        <input type="number" id="defFilter">
+    </div>
 
     <select id="sort">
         <option value="nameAsc">Name A-Z</option>
         <option value="nameDesc">Name Z-A</option>
-        <option value="pointsAsc">Points Low-High</option>
+
         <option value="pointsDesc">Points High-Low</option>
+        <option value="pointsAsc">Points Low-High</option>
+
+        <option value="levelDesc">Level High-Low</option>
+        <option value="levelAsc">Level Low-High</option>
+
         <option value="atkDesc">ATK High-Low</option>
+        <option value="atkAsc">ATK Low-High</option>
+
+        <option value="defDesc">DEF High-Low</option>
+        <option value="defAsc">DEF Low-High</option>
     </select>
 
 </section>
