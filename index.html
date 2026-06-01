@@ -1,16 +1,80 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Cyberdino Format Cards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberdino Format Cards</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello Cyberdino YGO</h1>
 
-  <input id="search" placeholder="Search cards..." />
+<header>
+    <h1>Cyberdino YGO</h1>
+</header>
 
-  <div id="cards"></div>
+<section id="filters">
 
-  <script src="app.js"></script>
+    <input
+        type="text"
+        id="search"
+        placeholder="Search card name..."
+    >
+
+    <input type="number" id="minPoints" placeholder="Min Points">
+    <input type="number" id="maxPoints" placeholder="Max Points">
+
+    <select id="cardCategory">
+        <option value="">All Categories</option>
+        <option>Monster</option>
+        <option>Spell</option>
+        <option>Trap</option>
+    </select>
+
+    <select id="monsterType">
+        <option value="">All Monster Types</option>
+    </select>
+
+    <select id="attribute">
+        <option value="">All Attributes</option>
+    </select>
+
+    <input type="number" id="minLevel" placeholder="Min Level">
+    <input type="number" id="maxLevel" placeholder="Max Level">
+
+    <input type="number" id="minAtk" placeholder="Min ATK">
+    <input type="number" id="maxAtk" placeholder="Max ATK">
+
+    <input type="number" id="minDef" placeholder="Min DEF">
+    <input type="number" id="maxDef" placeholder="Max DEF">
+
+    <select id="extraDeck">
+        <option value="">All Extra Deck Types</option>
+        <option>Fusion</option>
+        <option>Synchro</option>
+        <option>Xyz</option>
+        <option>Link</option>
+        <option>Pendulum</option>
+    </select>
+
+    <select id="sort">
+        <option value="nameAsc">Name A-Z</option>
+        <option value="nameDesc">Name Z-A</option>
+        <option value="pointsAsc">Points Low-High</option>
+        <option value="pointsDesc">Points High-Low</option>
+        <option value="atkDesc">ATK High-Low</option>
+    </select>
+
+</section>
+
+<section id="stats"></section>
+
+<section id="cardGrid"></section>
+
+<div id="lightbox" class="hidden">
+    <img id="lightboxImage">
+</div>
+
+<script src="app.js"></script>
+
 </body>
 </html>
