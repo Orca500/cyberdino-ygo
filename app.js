@@ -9,17 +9,17 @@ async function loadCards() {
 }
 
 function populateFilters() {
-
     const monsterTypes = new Set();
     const attributes = new Set();
 
     cards.forEach(card => {
-
-        if(card.race)
+        if (card.race) {
             monsterTypes.add(card.race);
+        }
 
-        if(card.attribute)
+        if (card.attribute) {
             attributes.add(card.attribute);
+        }
     });
 
     const monsterSelect =
@@ -28,11 +28,12 @@ function populateFilters() {
     [...monsterTypes]
         .sort()
         .forEach(type => {
-
             const option =
                 document.createElement("option");
 
+            option.value = type;
             option.textContent = type;
+
             monsterSelect.appendChild(option);
         });
 
@@ -42,11 +43,12 @@ function populateFilters() {
     [...attributes]
         .sort()
         .forEach(attr => {
-
             const option =
                 document.createElement("option");
 
+            option.value = attr;
             option.textContent = attr;
+
             attributeSelect.appendChild(option);
         });
 }
@@ -65,9 +67,11 @@ function renderCards() {
         .value
         .toLowerCase();
 
-    if(search) {
-        filtered = filtered.filter(c =>
-            c.name.toLowerCase().includes(search)
+    if (search) {
+        filtered = filtered.filter(card =>
+            card.name
+                .toLowerCase()
+                .includes(search)
         );
     }
 
@@ -83,10 +87,11 @@ function renderCards() {
 
         img.loading = "lazy";
         img.src = card.image;
+        img.alt = card.name;
 
         div.appendChild(img);
 
-        if(card.points > 0) {
+        if (card.points > 0) {
 
             const badge =
                 document.createElement("div");
@@ -100,13 +105,13 @@ function renderCards() {
         div.addEventListener("click", () => {
 
             document
-                .getElementById("lightbox")
-                .classList
-                .remove("hidden");
-
-            document
                 .getElementById("lightboxImage")
                 .src = card.image;
+
+            document
+                .getElementById("lightbox")
+                .classList
+                .add("active");
         });
 
         grid.appendChild(div);
@@ -117,28 +122,27 @@ function renderCards() {
 }
 
 document
-.getElementById("lightbox")
-.addEventListener("click", () => {
-
-    document
-        .getElementById("lightbox")
-        .classList
-        .add("hidden");
-});
-
-document.addEventListener("input", renderCards);
-
-document.addEventListener("change", renderCards);
-
-document.addEventListener("keydown", e => {
-
-    if(e.key === "Escape") {
+    .getElementById("lightbox")
+    .addEventListener("click", () => {
 
         document
             .getElementById("lightbox")
             .classList
-            .add("hidden");
+            .remove("active");
+    });
+
+document.addEventListener("keydown", event => {
+
+    if (event.key === "Escape") {
+
+        document
+            .getElementById("lightbox")
+            .classList
+            .remove("active");
     }
 });
+
+document.addEventListener("input", renderCards);
+document.addEventListener("change", renderCards);
 
 loadCards();
