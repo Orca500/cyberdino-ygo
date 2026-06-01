@@ -119,7 +119,7 @@
   {
     "id": 44095762,
     "name": "Mirror Force",
-    "points": 7,
+    "points": 10,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -366,7 +366,7 @@
   {
     "id": 41482598,
     "name": "Mirage of Nightmare",
-    "points": 45,
+    "points": 50,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -401,19 +401,6 @@
     "def": 2600,
     "desc": "During the End Phase, if this card was Normal or Special Summoned this turn: You can target 1 Spell in your GY; add it to your hand. You can only use this effect of \"Dark Magician of Chaos\" once per turn. If this card destroys an opponent's monster by battle, after damage calculation: Banish that opponent's monster. If this face-up card would leave the field, banish it instead.",
     "image": "images/40737112.jpg"
-  },
-  {
-    "id": 86099788,
-    "name": "The Last Warrior from Another Planet",
-    "points": 50,
-    "type": "Fusion Monster",
-    "race": "Warrior",
-    "attribute": "EARTH",
-    "level": 7,
-    "atk": 2350,
-    "def": 2300,
-    "desc": "\"Zombyra the Dark\" + \"Maryokutai\"\nIf this card is Special Summoned: Destroy all other monsters you control. Neither player can Summon monsters.",
-    "image": "images/86099788.jpg"
   },
   {
     "id": 63519819,
