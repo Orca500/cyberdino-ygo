@@ -52,7 +52,10 @@ function populateFilters() {
             monsterSelect.appendChild(option);
         });
 
-    [...monsterClasses]
+const monsterClassSelect =
+    document.getElementById("monsterClass");
+
+[...monsterClasses]
     .sort()
     .forEach(type => {
 
@@ -66,7 +69,7 @@ function populateFilters() {
     });
 
 const attributeSelect =
-        document.getElementById("attribute");
+    document.getElementById("attribute");
 
     [...attributes]
         .sort()
