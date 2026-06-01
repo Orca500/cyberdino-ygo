@@ -368,11 +368,8 @@ filtered.forEach(card => {
             const lightboxImage =
                 document.getElementById("lightboxImage");
 
-            // Clear any previous image first so an old card
-            // can never flash while the new image is loading.
             lightboxImage.removeAttribute("src");
 
-            // Preload the new image, then show it.
             const preloader = new Image();
 
             preloader.onload = () => {
@@ -429,15 +426,23 @@ document.addEventListener("change", renderCards);
 loadCards();
 
 
-
 const lightboxImage = document.getElementById("lightboxImage");
 
 if (lightboxImage) {
     lightboxImage.draggable = false;
 
-    ["dragstart","mousedown","selectstart"].forEach(eventName => {
-        lightboxImage.addEventListener(eventName, e => {
-            e.preventDefault();
-        });
+    lightboxImage.style.userSelect = "none";
+    lightboxImage.style.webkitUserSelect = "none";
+    lightboxImage.style.webkitUserDrag = "none";
+    lightboxImage.style.webkitTouchCallout = "none";
+
+    lightboxImage.addEventListener("dragstart", e => {
+        e.preventDefault();
     });
+}
+
+const lightbox = document.getElementById("lightbox");
+
+if (lightbox) {
+    lightbox.style.webkitTapHighlightColor = "transparent";
 }
