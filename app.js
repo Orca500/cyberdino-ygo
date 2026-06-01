@@ -241,6 +241,27 @@ if (monsterClass) {
 
     filtered.sort((a, b) => {
 
+        const compareWithNameFallback = (field, direction) => {
+
+            const aMissing = a[field] === null || a[field] === undefined;
+            const bMissing = b[field] === null || b[field] === undefined;
+
+            if (aMissing && bMissing) {
+                return a.name.localeCompare(b.name);
+            }
+
+            if (aMissing) return 1;
+            if (bMissing) return -1;
+
+            const diff = direction === "asc"
+                ? a[field] - b[field]
+                : b[field] - a[field];
+
+            return diff !== 0
+                ? diff
+                : a.name.localeCompare(b.name);
+        };
+
         switch (sort) {
 
             case "nameAsc":
@@ -250,36 +271,28 @@ if (monsterClass) {
                 return b.name.localeCompare(a.name);
 
             case "pointsAsc":
-                return (a.points ?? -Infinity) -
-                       (b.points ?? -Infinity);
+                return compareWithNameFallback("points", "asc");
 
             case "pointsDesc":
-                return (b.points ?? -Infinity) -
-                       (a.points ?? -Infinity);
+                return compareWithNameFallback("points", "desc");
 
             case "levelAsc":
-                return (a.level ?? -Infinity) -
-                       (b.level ?? -Infinity);
+                return compareWithNameFallback("level", "asc");
 
             case "levelDesc":
-                return (b.level ?? -Infinity) -
-                       (a.level ?? -Infinity);
+                return compareWithNameFallback("level", "desc");
 
             case "atkAsc":
-                return (a.atk ?? -Infinity) -
-                       (b.atk ?? -Infinity);
+                return compareWithNameFallback("atk", "asc");
 
             case "atkDesc":
-                return (b.atk ?? -Infinity) -
-                       (a.atk ?? -Infinity);
+                return compareWithNameFallback("atk", "desc");
 
             case "defAsc":
-                return (a.def ?? -Infinity) -
-                       (b.def ?? -Infinity);
+                return compareWithNameFallback("def", "asc");
 
             case "defDesc":
-                return (b.def ?? -Infinity) -
-                       (a.def ?? -Infinity);
+                return compareWithNameFallback("def", "desc");
 
             default:
                 return a.name.localeCompare(b.name);
