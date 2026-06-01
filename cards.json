@@ -635,5 +635,31 @@
     "def": null,
     "desc": "Each player targets 1 monster in their own GY; each player Special Summons the target from their GY in face-down Defense Position.",
     "image": "images/43434803.jpg"
+  },
+  {
+    "id": 44508094,
+    "name": "Stardust Dragon",
+    "points": 20,
+    "type": "Synchro Monster",
+    "race": "Dragon",
+    "attribute": "WIND",
+    "level": 8,
+    "atk": 2500,
+    "def": 2000,
+    "desc": "1 Tuner + 1+ non-Tuner monsters\r\nWhen a card or effect is activated that would destroy a card(s) on the field (Quick Effect): You can Tribute this card; negate the activation, and if you do, destroy it. During the End Phase, if this effect was activated this turn (and was not negated): You can Special Summon this card from your GY.",
+    "image": "images/44508094.jpg"
+  },
+  {
+    "id": 73580471,
+    "name": "Black Rose Dragon",
+    "points": 20,
+    "type": "Synchro Monster",
+    "race": "Dragon",
+    "attribute": "FIRE",
+    "level": 7,
+    "atk": 2400,
+    "def": 1800,
+    "desc": "1 Tuner + 1+ non-Tuner monsters\r\nWhen this card is Synchro Summoned: You can destroy all cards on the field. Once per turn: You can banish 1 Plant monster from your GY, then target 1 Defense Position monster your opponent controls; change that target to face-up Attack Position, and if you do, its ATK becomes 0 until the end of this turn.",
+    "image": "images/73580471.jpg"
   }
 ]
