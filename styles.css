@@ -88,3 +88,25 @@ header {
     max-width: 90%;
     max-height: 90%;
 }
+
+
+/* Prevent image selection, drag highlighting, and tap highlights */
+.card img,
+#lightbox img {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+}
+
+#lightbox {
+    -webkit-tap-highlight-color: transparent;
+}
+
+#lightbox img::selection {
+    background: transparent;
+}
+
+#lightbox img::-moz-selection {
+    background: transparent;
+}
