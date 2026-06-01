@@ -362,14 +362,25 @@ filtered.forEach(card => {
 
         div.addEventListener("click", () => {
 
-            document
-                .getElementById("lightboxImage")
-                .src = card.image;
+            const lightbox =
+                document.getElementById("lightbox");
 
-            document
-                .getElementById("lightbox")
-                .classList
-                .add("active");
+            const lightboxImage =
+                document.getElementById("lightboxImage");
+
+            // Clear any previous image first so an old card
+            // can never flash while the new image is loading.
+            lightboxImage.removeAttribute("src");
+
+            // Preload the new image, then show it.
+            const preloader = new Image();
+
+            preloader.onload = () => {
+                lightboxImage.src = card.image;
+                lightbox.classList.add("active");
+            };
+
+            preloader.src = card.image;
         });
 
         grid.appendChild(div);
@@ -387,6 +398,14 @@ document
             .getElementById("lightbox")
             .classList
             .remove("active");
+
+        document
+            .getElementById("lightboxImage")
+            .removeAttribute("src");
+
+        document
+            .getElementById("lightboxImage")
+            .removeAttribute("src");
     });
 
 document.addEventListener("keydown", event => {
@@ -397,6 +416,10 @@ document.addEventListener("keydown", event => {
             .getElementById("lightbox")
             .classList
             .remove("active");
+
+        document
+            .getElementById("lightboxImage")
+            .removeAttribute("src");
     }
 });
 
