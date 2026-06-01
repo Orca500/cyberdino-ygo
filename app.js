@@ -446,3 +446,33 @@ const lightbox = document.getElementById("lightbox");
 if (lightbox) {
     lightbox.style.webkitTapHighlightColor = "transparent";
 }
+
+
+const rulesText = document.getElementById("rulesText");
+
+if (rulesText) {
+    const lightbox = document.getElementById("lightbox");
+
+    let rulesContent = document.getElementById("rulesContent");
+
+    if (!rulesContent) {
+        rulesContent = document.createElement("div");
+        rulesContent.id = "rulesContent";
+        rulesContent.innerHTML = `
+            <p>Rules Explan Placeholder</p>
+            <p>Rules Explan Placeholder</p>
+            <p>Rules Explan Placeholder</p>
+        `;
+        lightbox.appendChild(rulesContent);
+    }
+
+    rulesText.addEventListener("click", (e) => {
+        e.stopPropagation();
+        lightbox.classList.add("active");
+        lightbox.classList.add("rules-mode");
+    });
+}
+
+document.getElementById("lightbox").addEventListener("click", () => {
+    document.getElementById("lightbox").classList.remove("rules-mode");
+});
