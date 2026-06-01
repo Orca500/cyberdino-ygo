@@ -13,12 +13,24 @@ async function loadCards() {
 
 function populateFilters() {
     const monsterTypes = new Set();
+    const monsterClasses = new Set();
     const attributes = new Set();
 
     cards.forEach(card => {
         if (card.race) {
             monsterTypes.add(card.race);
         }
+
+        if (card.type) {
+
+    if (card.type.includes("Monster")) {
+
+        const className =
+            card.type.replace(" Monster", "");
+
+        monsterClasses.add(className);
+    }
+}
 
         if (card.attribute) {
             attributes.add(card.attribute);
@@ -39,6 +51,22 @@ function populateFilters() {
 
             monsterSelect.appendChild(option);
         });
+
+    [...monsterClasses]
+    .sort()
+    .forEach(type => {
+
+        const option =
+            document.createElement("option");
+
+        option.value = type;
+        option.textContent = type;
+
+        monsterClassSelect.appendChild(option);
+    });
+
+const attributeSelect =
+    document.getElementById("attribute");
 
     const attributeSelect =
         document.getElementById("attribute");
@@ -148,6 +176,22 @@ function renderCards() {
             card => card.race === monsterType
         );
     }
+    
+    const monsterClass =
+    document.getElementById("monsterClass")
+        .value;
+
+if (monsterClass) {
+
+    filtered = filtered.filter(card => {
+
+        if (!card.type) {
+            return false;
+        }
+
+        return card.type.includes(monsterClass);
+    });
+}
 
     const attribute =
         document.getElementById("attribute")
