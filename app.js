@@ -468,6 +468,12 @@ if (rulesText) {
     DuelingBook
 </a>
             </p>
+            <p>
+                Contact: 
+                <a href="https://discord.gg/u38YxahQRt" target="_blank" rel="noopener noreferrer">
+    DiscordServer
+</a>
+            </p>
         `;
         lightbox.appendChild(rulesContent);
     }
