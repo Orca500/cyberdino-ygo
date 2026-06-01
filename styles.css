@@ -57,7 +57,7 @@ header {
     background: black;
     color: white;
 
-    box-shadow: 0 0 0 1px #7ec8ff;
+    box-shadow: 0 0 0 1.5px #7ec8ff, 0 0 1px rgba(126, 200, 255, 0.6);
 
     display: flex;
     align-items: center;
