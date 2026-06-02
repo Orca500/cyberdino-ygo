@@ -420,8 +420,18 @@ document.addEventListener("keydown", event => {
     }
 });
 
-document.addEventListener("input", renderCards);
-document.addEventListener("change", renderCards);
+
+// Only listen to actual filter controls.
+// Previously, input/change listeners were attached to the entire document.
+// When a numeric filter field lost focus because the user clicked a card,
+// the resulting change event bubbled to document, renderCards() rebuilt the
+// card grid, and the original click was effectively interrupted. The first
+// click would refresh the cards instead of opening the lightbox.
+document.querySelectorAll("#filters input, #filters select").forEach(el => {
+    el.addEventListener("input", renderCards);
+    el.addEventListener("change", renderCards);
+});
+
 
 loadCards();
 
