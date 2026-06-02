@@ -429,8 +429,13 @@ document.addEventListener("keydown", event => {
 });
 
 document.querySelectorAll("#filters input, #filters select").forEach(el => {
-    el.addEventListener("input", renderCards);
-    el.addEventListener("change", renderCards);
+
+    if (el.type === "number") {
+        el.addEventListener("input", renderCards);
+    } else {
+        el.addEventListener("input", renderCards);
+        el.addEventListener("change", renderCards);
+    }
 });
 
 loadCards();
