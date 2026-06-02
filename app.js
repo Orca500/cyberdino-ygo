@@ -121,10 +121,14 @@ function applyNumericFilter(cards, field, inputId, opId) {
     });
 }
 
+
 function renderCards() {
+
+    const previousScrollY = window.scrollY;
 
     const grid =
         document.getElementById("cardGrid");
+
 
     grid.innerHTML = "";
 
@@ -385,6 +389,10 @@ filtered.forEach(card => {
 
     document.getElementById("stats").textContent =
         `${filtered.length} cards shown`;
+
+    requestAnimationFrame(() => {
+        window.scrollTo(0, previousScrollY);
+    });
 }
 
 document
@@ -463,7 +471,7 @@ if (rulesText) {
         rulesContent.innerHTML = `
             <p>Build a deck from these cards! Standard Yugioh rules apply (40-60 cards in your main deck, 0-15 cards in extra deck, 0-15 cards in side deck, max. 3 copies of any one card).</p>
             <p>No banlist! Instead, players have a budget of 100 points to spend between their main, extra, and side deck. Use your points on numerous strong cards, or splurge for cards so powerful they were banned for most of Yugioh's history; specialize however you want!</p>
-            <p>This format's point system is borrowed directly from Yugioh's official Genesys format. Cyberdino is much lower power than Genesys, targeting a speed/feel similar to Edison format (2010 Yugioh).</p>
+            <p>This format's point system is borrowed directly from Yugioh's official Genesis format. Cyberdino is much lower power than Genesis, targeting a speed/feel similar to Edison format (2010 Yugioh).</p>
             <p>
                 The snappiest, snazziest place to build decks and play for free is DuelingBook: 
                 <a href="https://www.duelingbook.com/" target="_blank" rel="noopener noreferrer">
