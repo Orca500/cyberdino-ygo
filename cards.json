@@ -353,7 +353,7 @@
   {
     "id": 4906301,
     "name": "Necro Gardna",
-    "points": 1,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -990,7 +990,7 @@
   {
     "id": 57421866,
     "name": "Level Eater",
-    "points": 0,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Insect",
     "attribute": "DARK",
@@ -1159,7 +1159,7 @@
   {
     "id": 11765832,
     "name": "Garura, Wings of Resonant Life",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -1599,17 +1599,17 @@
     "image": "images/57953380.jpg"
   },
   {
-    "id": 97204936,
-    "name": "Gaia Knight, the Force of Earth",
-    "points": 0,
-    "type": "Synchro Monster",
-    "race": "Warrior",
-    "attribute": "EARTH",
-    "level": 6,
-    "atk": 2600,
-    "def": 800,
-    "desc": "1 Tuner + 1 or more non-Tuner monsters",
-    "image": "images/97204936.jpg"
+    "id": 10028593,
+    "name": "Reborn Tengu",
+    "points": 15,
+    "type": "Effect Monster",
+    "race": "Beast-Warrior",
+    "attribute": "WIND",
+    "level": 4,
+    "atk": 1700,
+    "def": 600,
+    "desc": "If this face-up card leaves the field: Special Summon 1 \"Reborn Tengu\" from your Deck.",
+    "image": "images/10028593.jpg"
   },
   {
     "id": 96287685,
@@ -1874,7 +1874,7 @@
   {
     "id": 81439173,
     "name": "Foolish Burial",
-    "points": 0,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2680,7 +2680,7 @@
   {
     "id": 27315304,
     "name": "Mist Wurm",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Thunder",
     "attribute": "WIND",
@@ -2693,7 +2693,7 @@
   {
     "id": 23693634,
     "name": "Colossal Fighter",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -2719,7 +2719,7 @@
   {
     "id": 31924889,
     "name": "Arcanite Magician",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -2888,7 +2888,7 @@
   {
     "id": 3544583,
     "name": "Allvain the Essence of Vanity",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Fairy",
     "attribute": "DARK",
@@ -2901,7 +2901,7 @@
   {
     "id": 87462901,
     "name": "Emissary from the House of Wax",
-    "points": 7,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Illusion",
     "attribute": "FIRE",
@@ -2927,7 +2927,7 @@
   {
     "id": 9551692,
     "name": "Master of Ham",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -2940,7 +2940,7 @@
   {
     "id": 30086349,
     "name": "Meteor Black Comet Dragon",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -3083,7 +3083,7 @@
   {
     "id": 26050548,
     "name": "Extox Hydra",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Reptile",
     "attribute": "WATER",
@@ -3096,7 +3096,7 @@
   {
     "id": 96947648,
     "name": "Salvage",
-    "points": 3,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -3135,7 +3135,7 @@
   {
     "id": 72959823,
     "name": "Panzer Dragon",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -3148,7 +3148,7 @@
   {
     "id": 86038337,
     "name": "Faisan, Hunting Scout of the Deep Forest",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -3161,7 +3161,7 @@
   {
     "id": 2129638,
     "name": "Blue-Eyes Twin Burst Dragon",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -3304,7 +3304,7 @@
   {
     "id": 76891401,
     "name": "Sea Dragon Lord Gishilnodon",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Sea Serpent",
     "attribute": "WATER",
@@ -3499,7 +3499,7 @@
   {
     "id": 45500495,
     "name": "Queen of Thorns",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Plant",
     "attribute": "LIGHT",
@@ -3512,7 +3512,7 @@
   {
     "id": 45815891,
     "name": "Scrap Archfiend",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Fiend",
     "attribute": "EARTH",
@@ -3525,7 +3525,7 @@
   {
     "id": 77506119,
     "name": "Thunder Unicorn",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Beast",
     "attribute": "LIGHT",
@@ -3538,7 +3538,7 @@
   {
     "id": 87259077,
     "name": "Lightning Warrior",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -3551,7 +3551,7 @@
   {
     "id": 44035031,
     "name": "Gravity Warrior",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -3564,7 +3564,7 @@
   {
     "id": 45298492,
     "name": "Scarred Warrior",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -3577,7 +3577,7 @@
   {
     "id": 15240238,
     "name": "Mist Bird Clausolas",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -3590,7 +3590,7 @@
   {
     "id": 32995007,
     "name": "Celestial Wolf Lord, Blue Sirius",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Beast-Warrior",
     "attribute": "DARK",
@@ -3603,7 +3603,7 @@
   {
     "id": 46132282,
     "name": "Powered Inzektron",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -3616,7 +3616,7 @@
   {
     "id": 9348522,
     "name": "Cloudcastle",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Machine",
     "attribute": "WIND",
@@ -3629,7 +3629,7 @@
   {
     "id": 64880894,
     "name": "Stardust Charge Warrior",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Warrior",
     "attribute": "WIND",
@@ -3850,7 +3850,7 @@
   {
     "id": 49407319,
     "name": "Star Mine",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Pyro",
     "attribute": "FIRE",
@@ -3941,7 +3941,7 @@
   {
     "id": 60800381,
     "name": "Junk Warrior",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -4058,7 +4058,7 @@
   {
     "id": 43385557,
     "name": "Magical Android",
-    "points": 0,
+    "points": 1,
     "type": "Synchro Monster",
     "race": "Psychic",
     "attribute": "LIGHT",
@@ -4396,7 +4396,7 @@
   {
     "id": 26517393,
     "name": "Spirit of the Fall Wind",
-    "points": 0,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "WIND",
@@ -4431,5 +4431,44 @@
     "def": 1400,
     "desc": "Once per turn: You can Tribute 1 face-up Plant monster; Special Summon 1 Plant monster from your Deck.",
     "image": "images/48686504.jpg"
+  },
+  {
+    "id": 97385276,
+    "name": "Level Warrior",
+    "points": 0,
+    "type": "Effect Monster",
+    "race": "Warrior",
+    "attribute": "LIGHT",
+    "level": 3,
+    "atk": 300,
+    "def": 600,
+    "desc": "If there are no monsters on the field, you can Normal Summon this card as a Level 2 monster. If your opponent controls a monster and you control no monsters, you can Special Summon this card (from your hand) as a Level 4 monster.",
+    "image": "images/97385276.jpg"
+  },
+  {
+    "id": 17559367,
+    "name": "Deep Diver",
+    "points": 5,
+    "type": "Effect Monster",
+    "race": "Aqua",
+    "attribute": "WATER",
+    "level": 3,
+    "atk": 1000,
+    "def": 1100,
+    "desc": "At the end of the Battle Phase, if this card was destroyed by battle and sent to the Graveyard: Choose 1 monster from your Deck and place it on top of your Deck.",
+    "image": "images/17559367.jpg"
+  },
+  {
+    "id": 35726888,
+    "name": "Foolish Burial Goods",
+    "points": 3,
+    "type": "Spell Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Send 1 Spell/Trap from your Deck to the GY. You can only activate 1 \"Foolish Burial Goods\" per turn.",
+    "image": "images/35726888.jpg"
   }
 ]
