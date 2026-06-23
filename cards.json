@@ -353,7 +353,7 @@
   {
     "id": 97120394,
     "name": "Anti-Magic Arrows",
-    "points": 0,
+    "points": 10,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -366,7 +366,7 @@
   {
     "id": 43262273,
     "name": "Appointer of the Red Lotus",
-    "points": 0,
+    "points": 5,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -791,6 +791,19 @@
     "def": 1100,
     "desc": "When this card destroys an opponent's monster by battle: You can Tribute this card; Special Summon 1 Dragon-Type monster from your hand or Graveyard, except \"Assault Wyvern\".",
     "image": "images/29311166.jpg"
+  },
+  {
+    "id": 2134346,
+    "name": "Asura Priest",
+    "points": 0,
+    "type": "Spirit Monster",
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1700,
+    "def": 1200,
+    "desc": "Cannot be Special Summoned. During the End Phase of the turn this card is Normal Summoned or flipped face-up: Return it to the hand. This card can attack all monsters your opponent controls once each.",
+    "image": "images/2134346.jpg"
   },
   {
     "id": 48964966,
@@ -1354,7 +1367,7 @@
   {
     "id": 93969023,
     "name": "Black Metal Dragon",
-    "points": 3,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -1833,6 +1846,19 @@
     "image": "images/89631139.jpg"
   },
   {
+    "id": 8715625,
+    "name": "Bokoichi the Freightening Car",
+    "points": 0,
+    "type": "Normal Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 2,
+    "atk": 500,
+    "def": 500,
+    "desc": "A freight car that is exclusively for Dekoichi. It can transport anything, but most cargo arrives broken.",
+    "image": "images/8715625.jpg"
+  },
+  {
     "id": 37675138,
     "name": "Bone Crusher",
     "points": 0,
@@ -2197,6 +2223,19 @@
     "image": "images/35011819.jpg"
   },
   {
+    "id": 72656408,
+    "name": "Bystial Baldrake",
+    "points": 25,
+    "type": "Effect Monster",
+    "race": "Dragon",
+    "attribute": "DARK",
+    "level": 6,
+    "atk": 2500,
+    "def": 2000,
+    "desc": "You can target 1 LIGHT or DARK monster in either GY; banish it, and if you do, Special Summon this card from your hand. This is a Quick Effect if your opponent controls a monster. If your opponent Special Summons a Ritual, Fusion, Synchro, Xyz, and/or Link Monster(s) (except during the Damage Step): You can Tribute 1 other LIGHT or DARK monster, then target 1 of those Special Summoned monsters; banish it. You can only use each effect of \"Bystial Baldrake\" once per turn.",
+    "image": "images/72656408.jpg"
+  },
+  {
     "id": 6637331,
     "name": "Bystial Druiswurm",
     "points": 25,
@@ -2342,7 +2381,7 @@
   {
     "id": 57953380,
     "name": "Card of Safe Return",
-    "points": 12,
+    "points": 15,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -2563,7 +2602,7 @@
   {
     "id": 91623717,
     "name": "Chain Strike",
-    "points": 0,
+    "points": 3,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -2914,7 +2953,7 @@
   {
     "id": 60682203,
     "name": "Cold Wave",
-    "points": 12,
+    "points": 15,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2966,7 +3005,7 @@
   {
     "id": 94192409,
     "name": "Compulsory Evacuation Device",
-    "points": 1,
+    "points": 3,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -3356,7 +3395,7 @@
   {
     "id": 82315403,
     "name": "Cyber Eternity Dragon",
-    "points": 30,
+    "points": 33,
     "type": "Fusion Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -3395,7 +3434,7 @@
   {
     "id": 33041277,
     "name": "Cyber Revsystem",
-    "points": 0,
+    "points": 7,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -3417,6 +3456,19 @@
     "def": null,
     "desc": "During your opponent's Main Phase: Special Summon this card as an Effect Monster (Machine/EARTH/Level 4/ATK ?/DEF ?). (This card is also still a Trap.) When an opponent's monster declares an attack that targets this card: The ATK/DEF of this card become the ATK/DEF of the attacking monster. Once per turn, during your opponent's End Phase: Set this card in its Spell & Trap Zone.",
     "image": "images/90440725.jpg"
+  },
+  {
+    "id": 74157028,
+    "name": "Cyber Twin Dragon",
+    "points": 1,
+    "type": "Fusion Monster",
+    "race": "Machine",
+    "attribute": "LIGHT",
+    "level": 8,
+    "atk": 2800,
+    "def": 2100,
+    "desc": "\"Cyber Dragon\" + \"Cyber Dragon\"\r\nA Fusion Summon of this card can only be done with the above Fusion Materials. This card can make a second attack during each Battle Phase.",
+    "image": "images/74157028.jpg"
   },
   {
     "id": 3657444,
@@ -4004,6 +4056,19 @@
     "image": "images/11366199.jpg"
   },
   {
+    "id": 38167722,
+    "name": "Dark Spirit Art - Greed",
+    "points": 0,
+    "type": "Trap Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Tribute 1 DARK monster. Draw 2 cards. Your opponent can negate this effect by revealing 1 Spell Card in their hand.",
+    "image": "images/38167722.jpg"
+  },
+  {
     "id": 93554166,
     "name": "Dark World Lightning",
     "points": 0,
@@ -4197,6 +4262,19 @@
     "def": 600,
     "desc": "You can Special Summon this card (from your hand) by sending 1 other monster from your hand to the GY. You can only Special Summon \"Defrag Dragon\" once per turn this way. If this card is in the GY: You can banish 3 monsters from your GY with the same name, except \"Defrag Dragon\"; Special Summon this card. You can only use this effect of \"Defrag Dragon\" once per turn.",
     "image": "images/58582979.jpg"
+  },
+  {
+    "id": 87621407,
+    "name": "Dekoichi the Battlechanted Locomotive",
+    "points": 0,
+    "type": "Flip Effect Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1400,
+    "def": 1000,
+    "desc": "FLIP: Draw 1 card, then draw 1 additional card for each face-up \"Bokoichi the Freightening Car\" you control.",
+    "image": "images/87621407.jpg"
   },
   {
     "id": 57568840,
@@ -4968,7 +5046,7 @@
   {
     "id": 97268402,
     "name": "Effect Veiler",
-    "points": 0,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -5046,7 +5124,7 @@
   {
     "id": 80908502,
     "name": "Elemental HERO Captain Gold",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -5059,7 +5137,7 @@
   {
     "id": 95486586,
     "name": "Elemental HERO Core",
-    "points": 10,
+    "points": 5,
     "type": "Fusion Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -5072,7 +5150,7 @@
   {
     "id": 59392529,
     "name": "Elemental HERO Liquid Soldier",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "WATER",
@@ -5124,7 +5202,7 @@
   {
     "id": 22908820,
     "name": "Elemental HERO Sunrise",
-    "points": 5,
+    "points": 10,
     "type": "Fusion Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -5605,7 +5683,7 @@
   {
     "id": 50078509,
     "name": "Fiendish Chain",
-    "points": 0,
+    "points": 1,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -6058,19 +6136,6 @@
     "image": "images/47325505.jpg"
   },
   {
-    "id": 42009836,
-    "name": "Fossil Dyna Pachycephalo",
-    "points": 20,
-    "type": "Effect Monster",
-    "race": "Rock",
-    "attribute": "EARTH",
-    "level": 4,
-    "atk": 1200,
-    "def": 1300,
-    "desc": "If this card is flipped face-up: Destroy all Special Summoned monsters on the field. Neither player can Special Summon monsters.",
-    "image": "images/42009836.jpg"
-  },
-  {
     "id": 69584564,
     "name": "Fragrance Storm",
     "points": 3,
@@ -6177,7 +6242,7 @@
   {
     "id": 77565204,
     "name": "Future Fusion",
-    "points": 20,
+    "points": 35,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -6554,7 +6619,7 @@
   {
     "id": 46159582,
     "name": "Gishki Aquamirror",
-    "points": 3,
+    "points": 0,
     "type": "Spell Card",
     "race": "Ritual",
     "attribute": null,
@@ -6983,7 +7048,7 @@
   {
     "id": 44330098,
     "name": "Gorz the Emissary of Darkness",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -7109,6 +7174,19 @@
     "def": 1200,
     "desc": "You can Tribute 1 other face-up \"Gravekeeper's\" monster to target 1 card your opponent controls; destroy that target.",
     "image": "images/30213599.jpg"
+  },
+  {
+    "id": 37101832,
+    "name": "Gravekeeper's Guard",
+    "points": 0,
+    "type": "Flip Effect Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1000,
+    "def": 1900,
+    "desc": "FLIP: Target 1 monster your opponent controls; return that target to the hand.",
+    "image": "images/37101832.jpg"
   },
   {
     "id": 21663205,
@@ -7317,19 +7395,6 @@
     "def": 2400,
     "desc": "You can pay 1000 LP; Special Summon this card from your hand in Defense Position, but while it is face-up in the Monster Zone, you cannot Special Summon monsters, except Insect monsters. During your opponent's turn (Quick Effect): You can target 1 Insect monster you control; change its battle position. You can only use each effect of \"Guard Mantis\" once per turn.",
     "image": "images/53754104.jpg"
-  },
-  {
-    "id": 11321089,
-    "name": "Guardian Chimera",
-    "points": 60,
-    "type": "Fusion Monster",
-    "race": "Beast",
-    "attribute": "DARK",
-    "level": 9,
-    "atk": 3300,
-    "def": 3300,
-    "desc": "3 monsters with different names\r\nMust first be Fusion Summoned using only Fusion Materials from your hand and field, with at least 1 monster from each. If this card is Fusion Summoned by a Spell Card or effect: You can draw cards equal to the number of cards used as material from the hand, and if you do, destroy cards your opponent controls equal to the number of cards used as material from the field. You can only use this effect of \"Guardian Chimera\" once per turn. While \"Polymerization\" is in your GY, your opponent cannot target this card with card effects.",
-    "image": "images/11321089.jpg"
   },
   {
     "id": 71799173,
@@ -7971,7 +8036,7 @@
   {
     "id": 10045474,
     "name": "Infinite Impermanence",
-    "points": 0,
+    "points": 1,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -8049,7 +8114,7 @@
   {
     "id": 1845204,
     "name": "Instant Fusion",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -8931,6 +8996,19 @@
     "image": "images/21251800.jpg"
   },
   {
+    "id": 44595286,
+    "name": "Light of Judgment",
+    "points": 0,
+    "type": "Trap Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "If \"The Sanctuary in the Sky\" is on the field: Discard 1 LIGHT monster to the GY; apply 1 of the following effects.\r\n● Look at your opponent's hand and discard 1 card from their hand.\r\n● Send 1 card your opponent controls to the GY.",
+    "image": "images/44595286.jpg"
+  },
+  {
     "id": 2362787,
     "name": "Light of Redemption",
     "points": 0,
@@ -9046,6 +9124,19 @@
     "def": 0,
     "desc": "If this card is Normal Summoned, its original ATK becomes 1000. (Quick Effect): You can Tribute 1 DARK monster; reveal 3 Normal Traps from your Deck, your opponent randomly chooses 1 for you to Set on your field, and you shuffle the rest back into your Deck. You can only use this effect of \"Lilith, Lady of Lament\" once per turn.",
     "image": "images/23898021.jpg"
+  },
+  {
+    "id": 27551,
+    "name": "Limit Reverse",
+    "points": 5,
+    "type": "Trap Card",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 monster with 1000 or less ATK in your Graveyard; Special Summon it in Attack Position. If the target is changed to Defense Position, destroy it and this card. When this card leaves the field, destroy the target. When the target is destroyed, destroy this card.",
+    "image": "images/27551.jpg"
   },
   {
     "id": 23171610,
@@ -9243,6 +9334,19 @@
     "image": "images/25518020.jpg"
   },
   {
+    "id": 59344077,
+    "name": "Magic Drain",
+    "points": 0,
+    "type": "Trap Card",
+    "race": "Counter",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "When your opponent activates a Spell Card: They can discard 1 Spell Card to negate this card's effect, otherwise negate the activation of their Spell Card, and if you do, destroy it.",
+    "image": "images/59344077.jpg"
+  },
+  {
     "id": 49941059,
     "name": "Magic Gate of Miracles",
     "points": 15,
@@ -9332,19 +9436,6 @@
     "def": 700,
     "desc": "FLIP: Excavate cards from the top of your Deck until you excavate a Spell/Trap, then add that card to your hand, also send the remaining cards to the GY.",
     "image": "images/32362575.jpg"
-  },
-  {
-    "id": 34206604,
-    "name": "Magical Scientist",
-    "points": 1,
-    "type": "Effect Monster",
-    "race": "Spellcaster",
-    "attribute": "DARK",
-    "level": 1,
-    "atk": 300,
-    "def": 300,
-    "desc": "Pay 1000 Life Points to Special Summon 1 level 6 or lower Fusion Monster from your Extra Deck in face-up Attack or Defense Position. That Fusion Monster cannot attack your opponent's Life Points directly, and is returned to your Extra Deck at the end of the turn.",
-    "image": "images/34206604.jpg"
   },
   {
     "id": 43930492,
@@ -9646,19 +9737,6 @@
     "image": "images/28933734.jpg"
   },
   {
-    "id": 29549364,
-    "name": "Mask of Restrict",
-    "points": 20,
-    "type": "Trap Card",
-    "race": "Continuous",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Neither player can Tribute cards.",
-    "image": "images/29549364.jpg"
-  },
-  {
     "id": 56948373,
     "name": "Mask of the Accursed",
     "points": 0,
@@ -9813,6 +9891,19 @@
     "def": 0,
     "desc": "If your opponent Normal or Special Summons a monster(s) (except during the Damage Step), or if an opponent's monster targets this card for an attack: You can return this card to the hand, then you can add 1 Level 2 or lower Beast monster from your GY to your hand, except \"Melffy Pony\". During your End Phase: You can Special Summon this card from your hand. You can only use each effect of \"Melffy Pony\" once per turn.",
     "image": "images/56401775.jpg"
+  },
+  {
+    "id": 49905576,
+    "name": "Meltiel, Sage of the Sky",
+    "points": 5,
+    "type": "Effect Monster",
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "level": 4,
+    "atk": 1600,
+    "def": 1200,
+    "desc": "Each time a Counter Trap Card is activated, immediately after it resolves, gain 1000 LP, and if you do, if \"The Sanctuary in the Sky\" is on the field, destroy 1 card your opponent controls.",
+    "image": "images/49905576.jpg"
   },
   {
     "id": 60080151,
@@ -10233,7 +10324,7 @@
   {
     "id": 44095762,
     "name": "Mirror Force",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -10675,7 +10766,7 @@
   {
     "id": 2956282,
     "name": "Naturia Barkion",
-    "points": 3,
+    "points": 7,
     "type": "Synchro Monster",
     "race": "Dragon",
     "attribute": "EARTH",
@@ -10818,7 +10909,7 @@
   {
     "id": 47355498,
     "name": "Necrovalley",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -11169,7 +11260,7 @@
   {
     "id": 90140980,
     "name": "Ojama King",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Beast",
     "attribute": "LIGHT",
@@ -11182,7 +11273,7 @@
   {
     "id": 40391316,
     "name": "Ojama Knight",
-    "points": 0,
+    "points": 1,
     "type": "Fusion Monster",
     "race": "Beast",
     "attribute": "LIGHT",
@@ -11256,6 +11347,19 @@
     "def": 1000,
     "desc": "1 Tuner + 1 or more non-Tuner monsters\nIf this card is sent from the Monster Zone to the Graveyard: You can target 1 face-up monster your opponent controls; equip this card from your Graveyard to that monster. That monster cannot attack, also its effects are negated. If this card leaves the field while equipped to an opponent's monster by this effect: Take control of the monster this card was equipped to.",
     "image": "images/70913714.jpg"
+  },
+  {
+    "id": 45141844,
+    "name": "Old Vindictive Magician",
+    "points": 0,
+    "type": "Flip Effect Monster",
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "level": 2,
+    "atk": 450,
+    "def": 600,
+    "desc": "FLIP: Target 1 monster your opponent controls; destroy that target.",
+    "image": "images/45141844.jpg"
   },
   {
     "id": 33782437,
@@ -12573,7 +12677,7 @@
   {
     "id": 6172122,
     "name": "Red-Eyes Fusion",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -13910,6 +14014,19 @@
     "image": "images/72497366.jpg"
   },
   {
+    "id": 60694662,
+    "name": "Skelengel",
+    "points": 0,
+    "type": "Flip Effect Monster",
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "level": 2,
+    "atk": 900,
+    "def": 400,
+    "desc": "FLIP: Draw 1 card.",
+    "image": "images/60694662.jpg"
+  },
+  {
     "id": 82732705,
     "name": "Skill Drain",
     "points": 20,
@@ -14263,7 +14380,7 @@
   {
     "id": 68005187,
     "name": "Soul Exchange",
-    "points": 0,
+    "points": 3,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -14484,7 +14601,7 @@
   {
     "id": 56981417,
     "name": "Spellbook of the Master",
-    "points": 5,
+    "points": 0,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -14625,6 +14742,19 @@
     "image": "images/69112325.jpg"
   },
   {
+    "id": 5037726,
+    "name": "Spiritual Light Art - Hijiri",
+    "points": 0,
+    "type": "Trap Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Tribute 1 LIGHT monster to target 1 banished monster; your opponent can reveal 1 Trap Card from their hand to negate this card's effect, otherwise you Special Summon that monster.",
+    "image": "images/5037726.jpg"
+  },
+  {
     "id": 78625592,
     "name": "Spiritual Swords of Revealing Light",
     "points": 10,
@@ -14692,7 +14822,7 @@
   {
     "id": 30979619,
     "name": "SPYRAL GEAR - Big Red",
-    "points": 12,
+    "points": 7,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -14744,7 +14874,7 @@
   {
     "id": 54631665,
     "name": "SPYRAL Resort",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -14948,19 +15078,6 @@
     "def": null,
     "desc": "Target 1 banished monster; Special Summon it to your field, but return it to the hand during the End Phase. You can only activate 1 \"Storm Dragon's Return\" per turn.",
     "image": "images/83195035.jpg"
-  },
-  {
-    "id": 5650082,
-    "name": "Storming Mirror Force",
-    "points": 7,
-    "type": "Trap Card",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "When an opponent's monster declares an attack: Return all your opponent's Attack Position monsters to the hand.",
-    "image": "images/5650082.jpg"
   },
   {
     "id": 13002461,
@@ -15563,7 +15680,7 @@
   {
     "id": 66574418,
     "name": "The Black Stone of Legend",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -15654,7 +15771,7 @@
   {
     "id": 33981008,
     "name": "The Grand Spellbook Tower",
-    "points": 25,
+    "points": 20,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -16759,7 +16876,7 @@
   {
     "id": 62188962,
     "name": "Vampire Kingdom",
-    "points": 25,
+    "points": 20,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -17539,7 +17656,7 @@
   {
     "id": 12171659,
     "name": "Zeradias, Herald of Heaven",
-    "points": 7,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "LIGHT",
