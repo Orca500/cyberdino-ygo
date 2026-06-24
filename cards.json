@@ -17721,7 +17721,7 @@
   {
     "id": 58012707,
     "name": "Giant Ballpark",
-    "points": 0,
+    "points": 25,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -17812,7 +17812,7 @@
   {
     "id": 25137581,
     "name": "Sneaky \"C\"",
-    "points": 0,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Insect",
     "attribute": "EARTH",
