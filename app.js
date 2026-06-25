@@ -377,6 +377,7 @@ filtered.forEach(card => {
             const preloader = new Image();
 
             preloader.onload = () => {
+                lightbox.classList.remove("rules-mode", "decks-mode");
                 lightboxImage.src = card.image;
                 lightbox.classList.add("active");
             };
@@ -395,36 +396,22 @@ filtered.forEach(card => {
     });
 }
 
+function closeLightbox() {
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+
+    lightbox.classList.remove("active", "rules-mode", "decks-mode");
+    lightboxImage.removeAttribute("src");
+}
+
 document
     .getElementById("lightbox")
-    .addEventListener("click", () => {
-
-        document
-            .getElementById("lightbox")
-            .classList
-            .remove("active");
-
-        document
-            .getElementById("lightboxImage")
-            .removeAttribute("src");
-
-        document
-            .getElementById("lightboxImage")
-            .removeAttribute("src");
-    });
+    .addEventListener("click", closeLightbox);
 
 document.addEventListener("keydown", event => {
 
     if (event.key === "Escape") {
-
-        document
-            .getElementById("lightbox")
-            .classList
-            .remove("active");
-
-        document
-            .getElementById("lightboxImage")
-            .removeAttribute("src");
+        closeLightbox();
     }
 });
 
@@ -473,6 +460,7 @@ if (rulesText) {
     if (!rulesContent) {
         rulesContent = document.createElement("div");
         rulesContent.id = "rulesContent";
+        rulesContent.className = "lightboxPanel";
         rulesContent.innerHTML = `
             <p>Build a deck from these cards! Standard Yugioh rules apply (40-60 cards in your main deck, 0-15 cards in extra deck, 0-15 cards in side deck, max. 3 copies of any one card).</p>
             <p>No banned cards! Instead, players have 100 points to spend between their main, extra, and side deck. Use your points on numerous strong cards, or splurge for cards so powerful they were banned for most of Yugioh's history; specialize however you want! If a card has no point badge on it, it costs 0.</p>
@@ -493,13 +481,32 @@ if (rulesText) {
         lightbox.appendChild(rulesContent);
     }
 
-    rulesText.addEventListener("click", (e) => {
-        e.stopPropagation();
-        lightbox.classList.add("active");
-        lightbox.classList.add("rules-mode");
+    rulesContent.addEventListener("click", event => {
+        event.stopPropagation();
+    });
+
+    rulesText.addEventListener("click", event => {
+        event.stopPropagation();
+        document.getElementById("lightboxImage").removeAttribute("src");
+        lightbox.classList.remove("decks-mode");
+        lightbox.classList.add("active", "rules-mode");
     });
 }
 
-document.getElementById("lightbox").addEventListener("click", () => {
-    document.getElementById("lightbox").classList.remove("rules-mode");
-});
+const decksText = document.getElementById("decksText");
+const decksContent = document.getElementById("decksContent");
+
+if (decksText && decksContent) {
+    const lightbox = document.getElementById("lightbox");
+
+    decksContent.addEventListener("click", event => {
+        event.stopPropagation();
+    });
+
+    decksText.addEventListener("click", event => {
+        event.stopPropagation();
+        document.getElementById("lightboxImage").removeAttribute("src");
+        lightbox.classList.remove("rules-mode");
+        lightbox.classList.add("active", "decks-mode");
+    });
+}
