@@ -691,7 +691,7 @@
   {
     "id": 21452275,
     "name": "Aroma Jar",
-    "points": 0,
+    "points": 1,
     "type": "Flip Effect Monster",
     "race": "Rock",
     "attribute": "WIND",
@@ -1614,7 +1614,7 @@
   {
     "id": 14785765,
     "name": "Blackwing - Zephyros the Elite",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -2212,7 +2212,7 @@
   {
     "id": 35011819,
     "name": "By Order of the Emperor",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -2576,7 +2576,7 @@
   {
     "id": 79323590,
     "name": "Chain Energy",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -2654,7 +2654,7 @@
   {
     "id": 34966096,
     "name": "Chaos Betrayer",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -3393,19 +3393,6 @@
     "image": "images/60600126.jpg"
   },
   {
-    "id": 82315403,
-    "name": "Cyber Eternity Dragon",
-    "points": 33,
-    "type": "Fusion Monster",
-    "race": "Machine",
-    "attribute": "LIGHT",
-    "level": 10,
-    "atk": 2800,
-    "def": 4000,
-    "desc": "1 \"Cyber Dragon\" monster + 2 Machine monsters\r\nIf you have a Machine Fusion Monster(s) in your GY, your opponent cannot target this card with card effects, also it cannot be destroyed by your opponent's card effects. If this Fusion Summoned card you control is sent to your GY by an opponent's card: You can Special Summon 1 \"Cyber Dragon\" from your hand, Deck, or GY. You can banish this card from your GY; this turn, your opponent cannot target Fusion Monsters you control with card effects, also they cannot be destroyed by your opponent's card effects.",
-    "image": "images/82315403.jpg"
-  },
-  {
     "id": 76763417,
     "name": "Cyber Gymnast",
     "points": 0,
@@ -3590,7 +3577,7 @@
   {
     "id": 7572887,
     "name": "D.D. Warrior Lady",
-    "points": 3,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -4383,7 +4370,7 @@
   {
     "id": 9411399,
     "name": "Destiny HERO - Malicious",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -5410,7 +5397,7 @@
   {
     "id": 78663366,
     "name": "Evilswarm Thunderbird",
-    "points": 5,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Thunder",
     "attribute": "DARK",
@@ -5631,7 +5618,7 @@
   {
     "id": 97396380,
     "name": "Fencing Fire Ferret",
-    "points": 0,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "FIRE",
@@ -6450,7 +6437,7 @@
   {
     "id": 81275309,
     "name": "General Raiho of the Ice Barrier",
-    "points": 5,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "WATER",
@@ -7321,7 +7308,7 @@
   {
     "id": 46668237,
     "name": "Green Baboon, Defender of the Forest",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -7486,19 +7473,6 @@
     "def": 500,
     "desc": "When this card is sent from the field to the Graveyard: You can Special Summon 1 Level 2 or lower \"Gusto\" monster from your Deck.",
     "image": "images/65277087.jpg"
-  },
-  {
-    "id": 73048641,
-    "name": "Half Shut",
-    "points": 10,
-    "type": "Spell Card",
-    "race": "Quick-Play",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Target 1 face-up monster on the field; it cannot be destroyed by battle this turn, also its ATK is halved until the end of this turn.",
-    "image": "images/73048641.jpg"
   },
   {
     "id": 26412047,
@@ -7906,7 +7880,7 @@
   {
     "id": 70595331,
     "name": "Il Blud",
-    "points": 10,
+    "points": 7,
     "type": "Gemini Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -8270,7 +8244,7 @@
   {
     "id": 41440817,
     "name": "Jelly Cannon",
-    "points": 7,
+    "points": 3,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -8959,7 +8933,7 @@
   {
     "id": 47297616,
     "name": "Light and Darkness Dragon",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -9193,7 +9167,7 @@
   {
     "id": 48686504,
     "name": "Lonefire Blossom",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "FIRE",
@@ -9596,7 +9570,7 @@
   {
     "id": 1224927,
     "name": "Malevolent Catastrophe",
-    "points": 3,
+    "points": 0,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -9687,7 +9661,7 @@
   {
     "id": 31305911,
     "name": "Marshmallon",
-    "points": 0,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "LIGHT",
@@ -9761,19 +9735,6 @@
     "def": 1850,
     "desc": "2 Beast monsters\r\nIf this card is Fusion Summoned or flipped face-up: You can Special Summon 1 Flip monster from your hand or Deck in face-down Defense Position. If this card is in your GY: You can banish 2 Flip monsters from your face-up field and/or GY; Special Summon this card in face-down Defense Position, but banish it when it leaves the field. You can only use each effect of \"Master of Ham\" once per turn.",
     "image": "images/9551692.jpg"
-  },
-  {
-    "id": 21377582,
-    "name": "Master Peace, the True Dracoslaying King",
-    "points": 60,
-    "type": "Effect Monster",
-    "race": "Wyrm",
-    "attribute": "LIGHT",
-    "level": 8,
-    "atk": 2950,
-    "def": 2950,
-    "desc": "To Tribute Summon this card face-up, you can Tribute Continuous Spell/Trap Card(s) you control, as well as monsters. Unaffected by the effects of cards with the same card type (Monster, Spell, and/or Trap) as the original card type of the cards Tributed for its Tribute Summon. Once per turn, during either player's turn, if you control this Tribute Summoned monster: You can banish 1 Continuous Spell/Trap Card from your Graveyard, then target 1 other card on the field; destroy it.",
-    "image": "images/21377582.jpg"
   },
   {
     "id": 41386308,
@@ -10298,7 +10259,7 @@
   {
     "id": 44095762,
     "name": "Mirror Force",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -11676,7 +11637,7 @@
   {
     "id": 23558733,
     "name": "Phoenixian Cluster Amaryllis",
-    "points": 25,
+    "points": 20,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "FIRE",
@@ -12352,7 +12313,7 @@
   {
     "id": 84433295,
     "name": "Quintet Magician",
-    "points": 25,
+    "points": 30,
     "type": "Fusion Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -12469,7 +12430,7 @@
   {
     "id": 10028593,
     "name": "Reborn Tengu",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Beast-Warrior",
     "attribute": "WIND",
@@ -13028,7 +12989,7 @@
   {
     "id": 44640691,
     "name": "Rogue of Endymion",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "FIRE",
@@ -13912,7 +13873,7 @@
   {
     "id": 96214561,
     "name": "Simorgh, Bird of Bringing",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -13951,7 +13912,7 @@
   {
     "id": 24081957,
     "name": "Sinful Spoils of Subversion - Snake-Eye",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -14211,7 +14172,7 @@
   {
     "id": 33911264,
     "name": "Solar Wind Jammer",
-    "points": 0,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -14497,7 +14458,7 @@
   {
     "id": 14824019,
     "name": "Spellbook Magician of Prophecy",
-    "points": 7,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "WATER",
@@ -14510,7 +14471,7 @@
   {
     "id": 97997309,
     "name": "Spellbook of Fate",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -14536,7 +14497,7 @@
   {
     "id": 52628687,
     "name": "Spellbook of Life",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -14549,7 +14510,7 @@
   {
     "id": 25123082,
     "name": "Spellbook of Power",
-    "points": 5,
+    "points": 3,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -14588,7 +14549,7 @@
   {
     "id": 88616795,
     "name": "Spellbook of Wisdom",
-    "points": 2,
+    "points": 3,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -14679,7 +14640,7 @@
   {
     "id": 23205979,
     "name": "Spirit Reaper",
-    "points": 10,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -14848,7 +14809,7 @@
   {
     "id": 54631665,
     "name": "SPYRAL Resort",
-    "points": 25,
+    "points": 20,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -14965,7 +14926,7 @@
   {
     "id": 58120309,
     "name": "Starlight Road",
-    "points": 10,
+    "points": 5,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -15732,7 +15693,7 @@
   {
     "id": 42671151,
     "name": "The Golden Apples",
-    "points": 1,
+    "points": 0,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -15745,7 +15706,7 @@
   {
     "id": 33981008,
     "name": "The Grand Spellbook Tower",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -16044,7 +16005,7 @@
   {
     "id": 2055403,
     "name": "Time-Space Trap Hole",
-    "points": 3,
+    "points": 1,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -16096,7 +16057,7 @@
   {
     "id": 564541,
     "name": "Totem Dragon",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "EARTH",
@@ -16109,7 +16070,7 @@
   {
     "id": 89732524,
     "name": "Tour Bus To Forbidden Realms",
-    "points": 7,
+    "points": 5,
     "type": "Flip Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -16707,7 +16668,7 @@
   {
     "id": 88554436,
     "name": "Unchained Soul of Shyama",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "WATER",
@@ -16824,7 +16785,7 @@
   {
     "id": 40607210,
     "name": "Vampire Grace",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -17266,7 +17227,7 @@
   {
     "id": 78229193,
     "name": "White Aura Dolphin",
-    "points": 20,
+    "points": 25,
     "type": "Synchro Monster",
     "race": "Fish",
     "attribute": "WATER",
@@ -17500,7 +17461,7 @@
   {
     "id": 67775894,
     "name": "Wonder Wand",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -17643,7 +17604,7 @@
   {
     "id": 17259470,
     "name": "Zombie Master",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -17873,5 +17834,44 @@
     "def": 1200,
     "desc": "If you have only Insect-Type monsters in your Graveyard, you can send 2 face-up Defense Position monsters your opponent controls to the Graveyard and Special Summon this card from your hand.",
     "image": "images/17021204.jpg"
+  },
+  {
+    "id": 27346636,
+    "name": "Gladiator Beast Heraklinos",
+    "points": 20,
+    "type": "Fusion Monster",
+    "race": "Beast-Warrior",
+    "attribute": "FIRE",
+    "level": 8,
+    "atk": 3000,
+    "def": 2800,
+    "desc": "\"Gladiator Beast Laquari\" + 2 \"Gladiator Beast\" monsters\nMust first be Special Summoned (from your Extra Deck) by shuffling the above cards you control into the Deck. (You do not use \"Polymerization\".) During either player's turn, when a Spell/Trap Card is activated: You can discard 1 card; negate the activation and destroy it. This card must be face-up on the field to activate and to resolve this effect.",
+    "image": "images/27346636.jpg"
+  },
+  {
+    "id": 61592395,
+    "name": "Spellbook of Eternity",
+    "points": 0,
+    "type": "Spell Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 of your banished \"Spellbook\" Spell Cards, except \"Spellbook of Eternity\"; add that target to your hand. You can only activate 1 \"Spellbook of Eternity\" per turn.",
+    "image": "images/61592395.jpg"
+  },
+  {
+    "id": 56321639,
+    "name": "Spellbook Star Hall",
+    "points": 3,
+    "type": "Spell Card",
+    "race": "Continuous",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Each time a \"Spellbook\" Spell Card is activated, place 1 Spell Counter on this card. All Spellcaster-Type monsters you control gain 100 ATK for each Spell Counter on this card. When this card with Spell Counter(s) is destroyed and sent to the Graveyard: You can add 1 Spellcaster-Type monster from your Deck to your hand, whose Level is less than or equal to the number of Spell Counters that were on this card.",
+    "image": "images/56321639.jpg"
   }
 ]
