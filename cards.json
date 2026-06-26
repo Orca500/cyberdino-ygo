@@ -8374,7 +8374,7 @@
   {
     "id": 63977008,
     "name": "Junk Synchron",
-    "points": 3,
+    "points": 5,
     "type": "Tuner Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -11494,7 +11494,7 @@
   {
     "id": 39091951,
     "name": "Pandaborg",
-    "points": 5,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Psychic",
     "attribute": "WATER",
@@ -13821,7 +13821,7 @@
   {
     "id": 62950604,
     "name": "Silent Psychic Wizard",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Psychic",
     "attribute": "EARTH",
@@ -15498,7 +15498,7 @@
   {
     "id": 63101919,
     "name": "Tempest Magician",
-    "points": 1,
+    "points": 7,
     "type": "Synchro Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
