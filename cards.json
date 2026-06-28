@@ -535,7 +535,7 @@
   {
     "id": 64635042,
     "name": "Archfiend's Call",
-    "points": 10,
+    "points": 7,
     "type": "Synchro Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -665,7 +665,7 @@
   {
     "id": 38960450,
     "name": "Armory Call",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -912,7 +912,7 @@
   {
     "id": 42502956,
     "name": "Ayers Rock Sunrise",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -1016,7 +1016,7 @@
   {
     "id": 55705473,
     "name": "Baobaboon",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "DARK",
@@ -1198,7 +1198,7 @@
   {
     "id": 6625096,
     "name": "Beautunaful Princess",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Fish",
     "attribute": "WATER",
@@ -1406,7 +1406,7 @@
   {
     "id": 88671720,
     "name": "Black Salvo",
-    "points": 12,
+    "points": 5,
     "type": "Tuner Monster",
     "race": "Machine",
     "attribute": "DARK",
@@ -1484,7 +1484,7 @@
   {
     "id": 22835145,
     "name": "Blackwing - Blizzard the Far North",
-    "points": 12,
+    "points": 5,
     "type": "Tuner Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -1510,7 +1510,7 @@
   {
     "id": 19462747,
     "name": "Blackwing - Decay the Ill Wind",
-    "points": 7,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -1549,7 +1549,7 @@
   {
     "id": 2009101,
     "name": "Blackwing - Gale the Whirlwind",
-    "points": 10,
+    "points": 7,
     "type": "Tuner Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -1614,7 +1614,7 @@
   {
     "id": 14785765,
     "name": "Blackwing - Zephyros the Elite",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -1783,7 +1783,7 @@
   {
     "id": 98884569,
     "name": "Blue Rose Dragon",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -1913,7 +1913,7 @@
   {
     "id": 2204140,
     "name": "Book of Life",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2004,7 +2004,7 @@
   {
     "id": 61156777,
     "name": "BOXer",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -2017,7 +2017,7 @@
   {
     "id": 87910978,
     "name": "Brain Control",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2186,7 +2186,7 @@
   {
     "id": 50243722,
     "name": "Burst Rebirth",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -2225,7 +2225,7 @@
   {
     "id": 72656408,
     "name": "Bystial Baldrake",
-    "points": 25,
+    "points": 20,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -2238,7 +2238,7 @@
   {
     "id": 6637331,
     "name": "Bystial Druiswurm",
-    "points": 25,
+    "points": 20,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -2251,7 +2251,7 @@
   {
     "id": 33854624,
     "name": "Bystial Magnamhut",
-    "points": 25,
+    "points": 20,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -2290,7 +2290,7 @@
   {
     "id": 97803170,
     "name": "Call of the Archfiend",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -2303,7 +2303,7 @@
   {
     "id": 80749819,
     "name": "Call of the Forgotten",
-    "points": 40,
+    "points": 35,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -2316,7 +2316,7 @@
   {
     "id": 97077563,
     "name": "Call of the Haunted",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -2329,7 +2329,7 @@
   {
     "id": 91754175,
     "name": "Caninetaur",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Beast-Warrior",
     "attribute": "FIRE",
@@ -2355,7 +2355,7 @@
   {
     "id": 4694209,
     "name": "Card Guard",
-    "points": 5,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -2368,7 +2368,7 @@
   {
     "id": 59750328,
     "name": "Card of Demise",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2407,7 +2407,7 @@
   {
     "id": 85087012,
     "name": "Card Trooper",
-    "points": 3,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "EARTH",
@@ -2459,7 +2459,7 @@
   {
     "id": 13513663,
     "name": "Castle of Dragon Souls",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -2472,7 +2472,7 @@
   {
     "id": 39505816,
     "name": "Cataclysmic Scorching Sunburner",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "FIRE",
@@ -2589,7 +2589,7 @@
   {
     "id": 13764881,
     "name": "Chain Resonator",
-    "points": 5,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Fiend",
     "attribute": "LIGHT",
@@ -2628,7 +2628,7 @@
   {
     "id": 4031928,
     "name": "Change of Heart",
-    "points": 40,
+    "points": 30,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2771,7 +2771,7 @@
   {
     "id": 525110,
     "name": "Cherry Inmato",
-    "points": 3,
+    "points": 1,
     "type": "Tuner Monster",
     "race": "Plant",
     "attribute": "DARK",
@@ -2914,7 +2914,7 @@
   {
     "id": 21570001,
     "name": "Clear New World",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2953,7 +2953,7 @@
   {
     "id": 60682203,
     "name": "Cold Wave",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -3005,7 +3005,7 @@
   {
     "id": 94192409,
     "name": "Compulsory Evacuation Device",
-    "points": 3,
+    "points": 2,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -3044,7 +3044,7 @@
   {
     "id": 44656450,
     "name": "Condemned Witch",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "DARK",
@@ -3057,7 +3057,7 @@
   {
     "id": 17375316,
     "name": "Confiscation",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -3187,7 +3187,7 @@
   {
     "id": 28637168,
     "name": "Crane Crane",
-    "points": 5,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "EARTH",
@@ -3460,7 +3460,7 @@
   {
     "id": 3657444,
     "name": "Cyber Valley",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -3486,7 +3486,7 @@
   {
     "id": 21036656,
     "name": "Cyclos the Circular Sprite",
-    "points": 10,
+    "points": 7,
     "type": "Tuner Monster",
     "race": "Plant",
     "attribute": "WIND",
@@ -3577,7 +3577,7 @@
   {
     "id": 7572887,
     "name": "D.D. Warrior Lady",
-    "points": 1,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -3603,7 +3603,7 @@
   {
     "id": 9622164,
     "name": "D.D.R. - Different Dimension Reincarnation",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -3655,7 +3655,7 @@
   {
     "id": 15341821,
     "name": "Dandylion",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "EARTH",
@@ -3668,7 +3668,7 @@
   {
     "id": 26302107,
     "name": "Danger! Dogman!",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Beast-Warrior",
     "attribute": "DARK",
@@ -3681,7 +3681,7 @@
   {
     "id": 99745551,
     "name": "Danger!? Tsuchinoko?",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Reptile",
     "attribute": "DARK",
@@ -3824,7 +3824,7 @@
   {
     "id": 88685329,
     "name": "Dark Eye Nightmare",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -3850,7 +3850,7 @@
   {
     "id": 9064354,
     "name": "Dark Factory of More Production",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -3863,7 +3863,7 @@
   {
     "id": 70676581,
     "name": "Dark General Freed",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -3889,7 +3889,7 @@
   {
     "id": 53129443,
     "name": "Dark Hole",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -3902,7 +3902,7 @@
   {
     "id": 16964437,
     "name": "Dark Horizon",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -4032,7 +4032,7 @@
   {
     "id": 11366199,
     "name": "Dark Simorgh",
-    "points": 30,
+    "points": 25,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -4123,7 +4123,7 @@
   {
     "id": 12500059,
     "name": "Dawn Angel Kambi",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "LIGHT",
@@ -4162,7 +4162,7 @@
   {
     "id": 14943837,
     "name": "Debris Dragon",
-    "points": 10,
+    "points": 5,
     "type": "Tuner Monster",
     "race": "Dragon",
     "attribute": "WIND",
@@ -4214,7 +4214,7 @@
   {
     "id": 78868119,
     "name": "Deep Sea Diva",
-    "points": 12,
+    "points": 7,
     "type": "Tuner Monster",
     "race": "Sea Serpent",
     "attribute": "WATER",
@@ -4305,7 +4305,7 @@
   {
     "id": 13974207,
     "name": "Denko Sekka",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Thunder",
     "attribute": "LIGHT",
@@ -4643,7 +4643,7 @@
   {
     "id": 39185163,
     "name": "Doomking Balerdroch",
-    "points": 40,
+    "points": 35,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -4656,7 +4656,7 @@
   {
     "id": 53855409,
     "name": "Doppelwarrior",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -4708,7 +4708,7 @@
   {
     "id": 96540,
     "name": "Downbeat",
-    "points": 12,
+    "points": 10,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -4721,7 +4721,7 @@
   {
     "id": 48705086,
     "name": "Dragolithia Kunzite",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "EARTH",
@@ -4734,7 +4734,7 @@
   {
     "id": 87835759,
     "name": "Dragon Knight of Creation",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -4747,7 +4747,7 @@
   {
     "id": 71867500,
     "name": "Dragon Revival Rhapsody",
-    "points": 15,
+    "points": 10,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -4760,7 +4760,7 @@
   {
     "id": 41620959,
     "name": "Dragon Shrine",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -5033,7 +5033,7 @@
   {
     "id": 97268402,
     "name": "Effect Veiler",
-    "points": 3,
+    "points": 2,
     "type": "Tuner Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -5098,7 +5098,7 @@
   {
     "id": 63060238,
     "name": "Elemental HERO Blazeman",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "FIRE",
@@ -5137,7 +5137,7 @@
   {
     "id": 59392529,
     "name": "Elemental HERO Liquid Soldier",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "WATER",
@@ -5163,7 +5163,7 @@
   {
     "id": 45195443,
     "name": "Elemental HERO Solid Soldier",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -5176,7 +5176,7 @@
   {
     "id": 40044918,
     "name": "Elemental HERO Stratos",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "WIND",
@@ -5228,7 +5228,7 @@
   {
     "id": 87462901,
     "name": "Emissary from the House of Wax",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Illusion",
     "attribute": "FIRE",
@@ -5280,7 +5280,7 @@
   {
     "id": 31550470,
     "name": "Escape from the Dark Dimension",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -5397,7 +5397,7 @@
   {
     "id": 78663366,
     "name": "Evilswarm Thunderbird",
-    "points": 1,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Thunder",
     "attribute": "DARK",
@@ -5566,7 +5566,7 @@
   {
     "id": 90312154,
     "name": "Fallen Sanctuary",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -5618,7 +5618,7 @@
   {
     "id": 97396380,
     "name": "Fencing Fire Ferret",
-    "points": 1,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "FIRE",
@@ -5670,7 +5670,7 @@
   {
     "id": 50078509,
     "name": "Fiendish Chain",
-    "points": 1,
+    "points": 0,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -5735,7 +5735,7 @@
   {
     "id": 68535320,
     "name": "Fire Hand",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Pyro",
     "attribute": "FIRE",
@@ -5813,7 +5813,7 @@
   {
     "id": 93369354,
     "name": "Fishborg Blaster",
-    "points": 12,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Fish",
     "attribute": "WATER",
@@ -5826,7 +5826,7 @@
   {
     "id": 21834870,
     "name": "Fists of the Unrivaled Tenyi",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -6008,7 +6008,7 @@
   {
     "id": 25789292,
     "name": "Forbidden Chalice",
-    "points": 3,
+    "points": 2,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -6034,7 +6034,7 @@
   {
     "id": 27243130,
     "name": "Forbidden Lance",
-    "points": 3,
+    "points": 2,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -6086,7 +6086,7 @@
   {
     "id": 50091196,
     "name": "Formula Synchron",
-    "points": 7,
+    "points": 3,
     "type": "Synchro Tuner Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -6320,7 +6320,7 @@
   {
     "id": 5133471,
     "name": "Galaxy Cyclone",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -6359,7 +6359,7 @@
   {
     "id": 76524506,
     "name": "Garden Rose Flora",
-    "points": 5,
+    "points": 3,
     "type": "Synchro Tuner Monster",
     "race": "Plant",
     "attribute": "LIGHT",
@@ -6398,7 +6398,7 @@
   {
     "id": 27979109,
     "name": "Gearbreed",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -6463,7 +6463,7 @@
   {
     "id": 73642296,
     "name": "Ghost Belle & Haunted Mansion",
-    "points": 10,
+    "points": 7,
     "type": "Tuner Monster",
     "race": "Zombie",
     "attribute": "EARTH",
@@ -6541,7 +6541,7 @@
   {
     "id": 42703248,
     "name": "Giant Trunade",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -6554,7 +6554,7 @@
   {
     "id": 53257892,
     "name": "Gigaplant",
-    "points": 7,
+    "points": 5,
     "type": "Gemini Monster",
     "race": "Plant",
     "attribute": "EARTH",
@@ -6619,7 +6619,7 @@
   {
     "id": 92784374,
     "name": "Gishki Ariel",
-    "points": 7,
+    "points": 5,
     "type": "Flip Effect Monster",
     "race": "Spellcaster",
     "attribute": "WATER",
@@ -6645,7 +6645,7 @@
   {
     "id": 36227804,
     "name": "Gishki Beast",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "WATER",
@@ -6697,7 +6697,7 @@
   {
     "id": 29888389,
     "name": "Gishki Shadow",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Sea Serpent",
     "attribute": "WATER",
@@ -6879,7 +6879,7 @@
   {
     "id": 92964816,
     "name": "Glow-Up Bloom",
-    "points": 12,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -6892,7 +6892,7 @@
   {
     "id": 67441435,
     "name": "Glow-Up Bulb",
-    "points": 12,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Plant",
     "attribute": "EARTH",
@@ -6944,7 +6944,7 @@
   {
     "id": 17535764,
     "name": "Gokipole",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Insect",
     "attribute": "EARTH",
@@ -6957,7 +6957,7 @@
   {
     "id": 55010259,
     "name": "Gold Gadget",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -6983,7 +6983,7 @@
   {
     "id": 93125329,
     "name": "Golden Cloud Beast - Malong",
-    "points": 1,
+    "points": 3,
     "type": "Synchro Tuner Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -7022,7 +7022,7 @@
   {
     "id": 44330098,
     "name": "Gorz the Emissary of Darkness",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -7035,7 +7035,7 @@
   {
     "id": 52467217,
     "name": "Gozuki",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "EARTH",
@@ -7048,7 +7048,7 @@
   {
     "id": 79571449,
     "name": "Graceful Charity",
-    "points": 40,
+    "points": 33,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -7074,7 +7074,7 @@
   {
     "id": 61468779,
     "name": "Grandsoil the Elemental Lord",
-    "points": 15,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Beast-Warrior",
     "attribute": "EARTH",
@@ -7165,7 +7165,7 @@
   {
     "id": 21663205,
     "name": "Gravekeeper's Headman",
-    "points": 15,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -7217,7 +7217,7 @@
   {
     "id": 58657303,
     "name": "Gravekeeper's Spiritualist",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -7503,7 +7503,7 @@
   {
     "id": 18144507,
     "name": "Harpie's Feather Duster",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -7711,7 +7711,7 @@
   {
     "id": 1980574,
     "name": "Hop Ear Squadron",
-    "points": 12,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Beast",
     "attribute": "WIND",
@@ -7750,7 +7750,7 @@
   {
     "id": 92266279,
     "name": "Humid Winds",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -7841,7 +7841,7 @@
   {
     "id": 53567095,
     "name": "Icarus Attack",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -7854,7 +7854,7 @@
   {
     "id": 95929069,
     "name": "Ice Hand",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Aqua",
     "attribute": "WATER",
@@ -7867,7 +7867,7 @@
   {
     "id": 4825390,
     "name": "Ichiroku's Ledger Book",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -7984,7 +7984,7 @@
   {
     "id": 58346901,
     "name": "Infernoble Knight Oliver",
-    "points": 0,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Warrior",
     "attribute": "FIRE",
@@ -8088,7 +8088,7 @@
   {
     "id": 25206027,
     "name": "Interplanetarypurplythorny Dragon",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -8127,7 +8127,7 @@
   {
     "id": 70744296,
     "name": "Ipiria",
-    "points": 0,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Reptile",
     "attribute": "EARTH",
@@ -8140,7 +8140,7 @@
   {
     "id": 64662453,
     "name": "Iron Call",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -8166,7 +8166,7 @@
   {
     "id": 34559295,
     "name": "Iron Draw",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -8179,7 +8179,7 @@
   {
     "id": 23850421,
     "name": "Jack Wyvern",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "DARK",
@@ -8205,7 +8205,7 @@
   {
     "id": 98954106,
     "name": "Jar of Avarice",
-    "points": 5,
+    "points": 3,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -8244,7 +8244,7 @@
   {
     "id": 41440817,
     "name": "Jelly Cannon",
-    "points": 3,
+    "points": 2,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -8270,7 +8270,7 @@
   {
     "id": 9742784,
     "name": "Jet Synchron",
-    "points": 10,
+    "points": 7,
     "type": "Tuner Monster",
     "race": "Machine",
     "attribute": "FIRE",
@@ -8296,7 +8296,7 @@
   {
     "id": 77585513,
     "name": "Jinzo",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "DARK",
@@ -8361,7 +8361,7 @@
   {
     "id": 34492631,
     "name": "Junk Giant",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "EARTH",
@@ -8374,7 +8374,7 @@
   {
     "id": 63977008,
     "name": "Junk Synchron",
-    "points": 5,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -8400,7 +8400,7 @@
   {
     "id": 78693036,
     "name": "Juraishin, the Cursed Thunder God",
-    "points": 25,
+    "points": 20,
     "type": "Synchro Monster",
     "race": "Psychic",
     "attribute": "EARTH",
@@ -8413,7 +8413,7 @@
   {
     "id": 99531088,
     "name": "Jurassic Power",
-    "points": 12,
+    "points": 10,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -8543,7 +8543,7 @@
   {
     "id": 59575539,
     "name": "Krebons",
-    "points": 5,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Psychic",
     "attribute": "DARK",
@@ -8608,7 +8608,7 @@
   {
     "id": 59160188,
     "name": "Lair of Darkness",
-    "points": 7,
+    "points": 10,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -8764,7 +8764,7 @@
   {
     "id": 2407147,
     "name": "Laval Volcano Handmaiden",
-    "points": 5,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Pyro",
     "attribute": "FIRE",
@@ -8881,7 +8881,7 @@
   {
     "id": 57421866,
     "name": "Level Eater",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Insect",
     "attribute": "DARK",
@@ -8933,7 +8933,7 @@
   {
     "id": 47297616,
     "name": "Light and Darkness Dragon",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -9063,7 +9063,7 @@
   {
     "id": 25218587,
     "name": "Lightsworn Aegis",
-    "points": 5,
+    "points": 3,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -9167,7 +9167,7 @@
   {
     "id": 48686504,
     "name": "Lonefire Blossom",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "FIRE",
@@ -9284,7 +9284,7 @@
   {
     "id": 25518020,
     "name": "Machine Assembly Line",
-    "points": 5,
+    "points": 3,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -9375,7 +9375,7 @@
   {
     "id": 51916853,
     "name": "Magical Hound",
-    "points": 5,
+    "points": 0,
     "type": "Tuner Monster",
     "race": "Machine",
     "attribute": "EARTH",
@@ -9453,7 +9453,7 @@
   {
     "id": 67853262,
     "name": "Magician of Faithfulness",
-    "points": 7,
+    "points": 5,
     "type": "Flip Effect Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -9596,7 +9596,7 @@
   {
     "id": 77121851,
     "name": "Manticore of Darkness",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Beast-Warrior",
     "attribute": "FIRE",
@@ -9739,7 +9739,7 @@
   {
     "id": 41386308,
     "name": "Mathematician",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "EARTH",
@@ -9882,7 +9882,7 @@
   {
     "id": 23899727,
     "name": "Mermail Abysslinde",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Aqua",
     "attribute": "WATER",
@@ -9921,7 +9921,7 @@
   {
     "id": 44656491,
     "name": "Messenger of Peace",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -9934,7 +9934,7 @@
   {
     "id": 26905245,
     "name": "Metal Reflect Slime",
-    "points": 5,
+    "points": 1,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -9960,7 +9960,7 @@
   {
     "id": 43959432,
     "name": "Metamorphortress",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -10012,7 +10012,7 @@
   {
     "id": 92826944,
     "name": "Mezuki",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "EARTH",
@@ -10194,7 +10194,7 @@
   {
     "id": 44887817,
     "name": "Miracle Fertilizer",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -10220,7 +10220,7 @@
   {
     "id": 21636650,
     "name": "Miracle's Wake",
-    "points": 5,
+    "points": 3,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -10246,7 +10246,7 @@
   {
     "id": 41482598,
     "name": "Mirage of Nightmare",
-    "points": 40,
+    "points": 30,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -10441,7 +10441,7 @@
   {
     "id": 43040603,
     "name": "Monster Gate",
-    "points": 5,
+    "points": 3,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -10467,7 +10467,7 @@
   {
     "id": 83764719,
     "name": "Monster Reborn",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -10532,7 +10532,7 @@
   {
     "id": 33508719,
     "name": "Morphing Jar",
-    "points": 12,
+    "points": 10,
     "type": "Flip Effect Monster",
     "race": "Rock",
     "attribute": "EARTH",
@@ -10558,7 +10558,7 @@
   {
     "id": 18837926,
     "name": "Motivating Captain",
-    "points": 0,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -10571,7 +10571,7 @@
   {
     "id": 13959634,
     "name": "Moulinglacia the Elemental Lord",
-    "points": 30,
+    "points": 25,
     "type": "Effect Monster",
     "race": "Sea Serpent",
     "attribute": "WATER",
@@ -10727,7 +10727,7 @@
   {
     "id": 60668166,
     "name": "Naturia Cherries",
-    "points": 2,
+    "points": 1,
     "type": "Tuner Monster",
     "race": "Plant",
     "attribute": "EARTH",
@@ -10792,7 +10792,7 @@
   {
     "id": 61049315,
     "name": "Naturia Rosewhip",
-    "points": 12,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Plant",
     "attribute": "EARTH",
@@ -10909,7 +10909,7 @@
   {
     "id": 60666820,
     "name": "Nefarious Archfiend Eater of Nefariousness",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -10922,7 +10922,7 @@
   {
     "id": 816427,
     "name": "Neo Flamvell Lady",
-    "points": 10,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Pyro",
     "attribute": "FIRE",
@@ -10948,7 +10948,7 @@
   {
     "id": 16226786,
     "name": "Night Assailant",
-    "points": 10,
+    "points": 7,
     "type": "Flip Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -10974,7 +10974,7 @@
   {
     "id": 20295753,
     "name": "Night Sword Serpent",
-    "points": 7,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Reptile",
     "attribute": "WATER",
@@ -11000,7 +11000,7 @@
   {
     "id": 2843014,
     "name": "Nimble Sunfish",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Fish",
     "attribute": "WATER",
@@ -11013,7 +11013,7 @@
   {
     "id": 27198001,
     "name": "Nine-Tailed Fox",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "FIRE",
@@ -11078,7 +11078,7 @@
   {
     "id": 98806751,
     "name": "Obsessive Uvualoop",
-    "points": 25,
+    "points": 15,
     "type": "Tuner Monster",
     "race": "Fiend",
     "attribute": "EARTH",
@@ -11325,7 +11325,7 @@
   {
     "id": 93104632,
     "name": "One-Time Passcode",
-    "points": 3,
+    "points": 2,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -11390,7 +11390,7 @@
   {
     "id": 1834753,
     "name": "Overdrive Teleporter",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Psychic",
     "attribute": "LIGHT",
@@ -11455,7 +11455,7 @@
   {
     "id": 74191942,
     "name": "Painful Choice",
-    "points": 45,
+    "points": 40,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -11520,7 +11520,7 @@
   {
     "id": 14457896,
     "name": "Parasite Paranoid",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Insect",
     "attribute": "EARTH",
@@ -11715,7 +11715,7 @@
   {
     "id": 33420078,
     "name": "Plaguespreader Zombie",
-    "points": 12,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -11741,7 +11741,7 @@
   {
     "id": 67169062,
     "name": "Pot of Avarice",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -11754,7 +11754,7 @@
   {
     "id": 98645731,
     "name": "Pot of Duality",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -11767,7 +11767,7 @@
   {
     "id": 55144522,
     "name": "Pot of Greed",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -11793,7 +11793,7 @@
   {
     "id": 89055154,
     "name": "Power Angel Valkyria",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "LIGHT",
@@ -11897,7 +11897,7 @@
   {
     "id": 70828912,
     "name": "Premature Burial",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -11949,7 +11949,7 @@
   {
     "id": 79966218,
     "name": "Princess Dracaena, the Thirsting Tree",
-    "points": 20,
+    "points": 15,
     "type": "Tuner Monster",
     "race": "Plant",
     "attribute": "DARK",
@@ -11975,7 +11975,7 @@
   {
     "id": 85847157,
     "name": "Proof of Pruflas",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -12001,7 +12001,7 @@
   {
     "id": 95091919,
     "name": "Prototype Psychic Blaster",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Psychic",
     "attribute": "EARTH",
@@ -12183,7 +12183,7 @@
   {
     "id": 17601919,
     "name": "Pumprincess the Princess of Ghosts",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -12235,7 +12235,7 @@
   {
     "id": 86605515,
     "name": "Qardan the Clear-Sighted",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "EARTH",
@@ -12300,7 +12300,7 @@
   {
     "id": 23571046,
     "name": "Quillbolt Hedgehog",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "EARTH",
@@ -12352,7 +12352,7 @@
   {
     "id": 12580477,
     "name": "Raigeki",
-    "points": 40,
+    "points": 35,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -12404,7 +12404,7 @@
   {
     "id": 58577036,
     "name": "Reasoning",
-    "points": 3,
+    "points": 2,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -12417,7 +12417,7 @@
   {
     "id": 42444868,
     "name": "Rebirth of Parshath",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -12495,7 +12495,7 @@
   {
     "id": 19636995,
     "name": "Red Hared Hasty Horse",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "WIND",
@@ -12560,7 +12560,7 @@
   {
     "id": 58257569,
     "name": "Red-Eyes Baby Dragon",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -12586,7 +12586,7 @@
   {
     "id": 27657173,
     "name": "Red-Eyes Black Meteor Dragon",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -12742,7 +12742,7 @@
   {
     "id": 14878871,
     "name": "Rescue Cat",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -12755,7 +12755,7 @@
   {
     "id": 85138716,
     "name": "Rescue Rabbit",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -12872,7 +12872,7 @@
   {
     "id": 66664203,
     "name": "Revolution Cyber Dragon",
-    "points": 15,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -13002,7 +13002,7 @@
   {
     "id": 86028783,
     "name": "Rookie Warrior Lady",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -13041,7 +13041,7 @@
   {
     "id": 96385345,
     "name": "Rose Paladin",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -13054,7 +13054,7 @@
   {
     "id": 2752099,
     "name": "Rose Shaman",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -13067,7 +13067,7 @@
   {
     "id": 1557341,
     "name": "Rose, Warrior of Revenge",
-    "points": 5,
+    "points": 0,
     "type": "Tuner Monster",
     "race": "Warrior",
     "attribute": "FIRE",
@@ -13080,7 +13080,7 @@
   {
     "id": 51452091,
     "name": "Royal Decree",
-    "points": 20,
+    "points": 15,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -13210,7 +13210,7 @@
   {
     "id": 8240199,
     "name": "Sage with Eyes of Blue",
-    "points": 12,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -13262,7 +13262,7 @@
   {
     "id": 5592689,
     "name": "Samsara Lotus",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "DARK",
@@ -13301,7 +13301,7 @@
   {
     "id": 68989981,
     "name": "Samurai Skull",
-    "points": 15,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -13327,7 +13327,7 @@
   {
     "id": 26202165,
     "name": "Sangan",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -13366,7 +13366,7 @@
   {
     "id": 73915051,
     "name": "Scapegoat",
-    "points": 3,
+    "points": 2,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -13405,7 +13405,7 @@
   {
     "id": 19139516,
     "name": "Scrap Beast",
-    "points": 5,
+    "points": 0,
     "type": "Tuner Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -13431,7 +13431,7 @@
   {
     "id": 56746202,
     "name": "Scrap Chimera",
-    "points": 12,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -13522,7 +13522,7 @@
   {
     "id": 16449363,
     "name": "Scrap Synchron",
-    "points": 5,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Machine",
     "attribute": "EARTH",
@@ -13561,7 +13561,7 @@
   {
     "id": 98427577,
     "name": "Scrap-Iron Scarecrow",
-    "points": 1,
+    "points": 0,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -13574,7 +13574,7 @@
   {
     "id": 48445393,
     "name": "Scrapstorm",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -13665,7 +13665,7 @@
   {
     "id": 98358303,
     "name": "Serene Psychic Witch",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Psychic",
     "attribute": "EARTH",
@@ -13691,7 +13691,7 @@
   {
     "id": 77723643,
     "name": "Shaddoll Dragon",
-    "points": 7,
+    "points": 3,
     "type": "Flip Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -13704,7 +13704,7 @@
   {
     "id": 46057733,
     "name": "Shamisen Samsara Sorrowcat",
-    "points": 12,
+    "points": 7,
     "type": "Synchro Tuner Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -13756,7 +13756,7 @@
   {
     "id": 90020780,
     "name": "Shinobi Necro",
-    "points": 10,
+    "points": 7,
     "type": "Tuner Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -13821,7 +13821,7 @@
   {
     "id": 62950604,
     "name": "Silent Psychic Wizard",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Psychic",
     "attribute": "EARTH",
@@ -13873,7 +13873,7 @@
   {
     "id": 96214561,
     "name": "Simorgh, Bird of Bringing",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -13886,7 +13886,7 @@
   {
     "id": 59707204,
     "name": "Simorgh, Bird of Protection",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -14107,7 +14107,7 @@
   {
     "id": 45986603,
     "name": "Snatch Steal",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -14172,7 +14172,7 @@
   {
     "id": 33911264,
     "name": "Solar Wind Jammer",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -14185,7 +14185,7 @@
   {
     "id": 7805147,
     "name": "Soldier Dragons",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "EARTH",
@@ -14211,7 +14211,7 @@
   {
     "id": 92512625,
     "name": "Solemn Scolding",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -14224,7 +14224,7 @@
   {
     "id": 40605147,
     "name": "Solemn Strike",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -14237,7 +14237,7 @@
   {
     "id": 84749824,
     "name": "Solemn Warning",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -14549,7 +14549,7 @@
   {
     "id": 88616795,
     "name": "Spellbook of Wisdom",
-    "points": 3,
+    "points": 2,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -14588,7 +14588,7 @@
   {
     "id": 26640671,
     "name": "Spiders' Lair",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -14653,7 +14653,7 @@
   {
     "id": 8324284,
     "name": "Spirit Shield",
-    "points": 30,
+    "points": 25,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -14692,7 +14692,7 @@
   {
     "id": 78625592,
     "name": "Spiritual Swords of Revealing Light",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -14718,7 +14718,7 @@
   {
     "id": 11747708,
     "name": "Spore",
-    "points": 10,
+    "points": 7,
     "type": "Tuner Monster",
     "race": "Plant",
     "attribute": "WIND",
@@ -14783,7 +14783,7 @@
   {
     "id": 53989821,
     "name": "SPYRAL GEAR - Utility Wire",
-    "points": 20,
+    "points": 15,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -15004,7 +15004,7 @@
   {
     "id": 83195035,
     "name": "Storm Dragon's Return",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -15095,7 +15095,7 @@
   {
     "id": 69145169,
     "name": "Successor Soul",
-    "points": 12,
+    "points": 10,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -15212,7 +15212,7 @@
   {
     "id": 48130397,
     "name": "Super Polymerization",
-    "points": 40,
+    "points": 35,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -15264,7 +15264,7 @@
   {
     "id": 5220687,
     "name": "Super-Nimble Mega Hamster",
-    "points": 10,
+    "points": 7,
     "type": "Flip Effect Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -15277,7 +15277,7 @@
   {
     "id": 93918159,
     "name": "Supersoaring",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -15290,7 +15290,7 @@
   {
     "id": 31259606,
     "name": "Supreme Sea Mare",
-    "points": 7,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Aqua",
     "attribute": "WATER",
@@ -15355,7 +15355,7 @@
   {
     "id": 72302403,
     "name": "Swords of Revealing Light",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -15407,7 +15407,7 @@
   {
     "id": 90953320,
     "name": "T.G. Hyper Librarian",
-    "points": 10,
+    "points": 7,
     "type": "Synchro Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -15472,7 +15472,7 @@
   {
     "id": 55863245,
     "name": "Tatsunoko",
-    "points": 5,
+    "points": 3,
     "type": "Synchro Tuner Monster",
     "race": "Wyrm",
     "attribute": "WATER",
@@ -15537,7 +15537,7 @@
   {
     "id": 6589707,
     "name": "Terrors in the Hidden City",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -15602,7 +15602,7 @@
   {
     "id": 73680966,
     "name": "The Beginning of the End",
-    "points": 3,
+    "points": 0,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -15667,7 +15667,7 @@
   {
     "id": 56399890,
     "name": "The Fabled Catsith",
-    "points": 12,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Beast",
     "attribute": "LIGHT",
@@ -15953,7 +15953,7 @@
   {
     "id": 40450317,
     "name": "Ties of the Brethren",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -16044,7 +16044,7 @@
   {
     "id": 53582587,
     "name": "Torrential Tribute",
-    "points": 20,
+    "points": 15,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -16057,7 +16057,7 @@
   {
     "id": 564541,
     "name": "Totem Dragon",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "EARTH",
@@ -16239,7 +16239,7 @@
   {
     "id": 55428242,
     "name": "Traptrix Atrax",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Insect",
     "attribute": "EARTH",
@@ -16343,7 +16343,7 @@
   {
     "id": 12538374,
     "name": "Treeborn Frog",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Aqua",
     "attribute": "WATER",
@@ -16577,7 +16577,7 @@
   {
     "id": 11819616,
     "name": "Tytannial, Princess of Camellias",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "WIND",
@@ -16746,7 +16746,7 @@
   {
     "id": 24096499,
     "name": "Valerifawn, Mystical Beast of the Forest",
-    "points": 7,
+    "points": 5,
     "type": "Tuner Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -16759,7 +16759,7 @@
   {
     "id": 99348756,
     "name": "Valkyrian Knight",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "FIRE",
@@ -16850,7 +16850,7 @@
   {
     "id": 6917479,
     "name": "Vampire Red Baron",
-    "points": 25,
+    "points": 20,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -17019,7 +17019,7 @@
   {
     "id": 58354899,
     "name": "Vulcarrion the Rotting Phoenix",
-    "points": 15,
+    "points": 10,
     "type": "Tuner Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -17032,7 +17032,7 @@
   {
     "id": 1281505,
     "name": "Vylon Tetra",
-    "points": 5,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -17227,7 +17227,7 @@
   {
     "id": 78229193,
     "name": "White Aura Dolphin",
-    "points": 25,
+    "points": 20,
     "type": "Synchro Monster",
     "race": "Fish",
     "attribute": "WATER",
@@ -17279,7 +17279,7 @@
   {
     "id": 19885332,
     "name": "White Mirror",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -17305,7 +17305,7 @@
   {
     "id": 98684051,
     "name": "White Sardine",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Fish",
     "attribute": "WATER",
@@ -17318,7 +17318,7 @@
   {
     "id": 63509474,
     "name": "Whitefish Salvage",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -17383,7 +17383,7 @@
   {
     "id": 8843569,
     "name": "Wing Requital",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -17422,7 +17422,7 @@
   {
     "id": 78010363,
     "name": "Witch of the Black Forest",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -17513,7 +17513,7 @@
   {
     "id": 65303664,
     "name": "Yellow Baboon, Archer of the Forest",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -17630,7 +17630,7 @@
   {
     "id": 81616639,
     "name": "Zombina",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "EARTH",
@@ -17721,7 +17721,7 @@
   {
     "id": 80402389,
     "name": "Verdant Sanctuary",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
