@@ -2043,7 +2043,7 @@
   {
     "id": 71413901,
     "name": "Breaker the Magical Warrior",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -2303,7 +2303,7 @@
   {
     "id": 80749819,
     "name": "Call of the Forgotten",
-    "points": 35,
+    "points": 40,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -5501,7 +5501,7 @@
   {
     "id": 54048462,
     "name": "Fabled Valkyrus",
-    "points": 5,
+    "points": 3,
     "type": "Synchro Monster",
     "race": "Fiend",
     "attribute": "LIGHT",
@@ -6983,7 +6983,7 @@
   {
     "id": 93125329,
     "name": "Golden Cloud Beast - Malong",
-    "points": 3,
+    "points": 5,
     "type": "Synchro Tuner Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -14198,7 +14198,7 @@
   {
     "id": 41420027,
     "name": "Solemn Judgment",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -17886,5 +17886,57 @@
     "def": null,
     "desc": "Return 1 Level 5 or higher Dragon-Type monster you control to the hand, and if you do, destroy all Spell and Trap Cards on the field.",
     "image": "images/28596933.jpg"
+  },
+  {
+    "id": 34124316,
+    "name": "Cyber Jar",
+    "points": 25,
+    "type": "Flip Effect Monster",
+    "race": "Rock",
+    "attribute": "DARK",
+    "level": 3,
+    "atk": 900,
+    "def": 900,
+    "desc": "FLIP: Destroy all monsters on the field, then both players reveal the top 5 cards from their Decks, then Special Summon all revealed Level 4 or lower monsters in face-up Attack Position or face-down Defense Position, also add any remaining cards to their hand. (If either player has less than 5 cards in their Deck, reveal as many as possible.)",
+    "image": "images/34124316.jpg"
+  },
+  {
+    "id": 26593852,
+    "name": "Ally of Justice Catastor",
+    "points": 1,
+    "type": "Synchro Monster",
+    "race": "Machine",
+    "attribute": "DARK",
+    "level": 5,
+    "atk": 2200,
+    "def": 1200,
+    "desc": "1 Tuner + 1+ non-Tuner monsters\nAt the start of the Damage Step, if this card battles a face-up non-DARK monster: Destroy that monster.",
+    "image": "images/26593852.jpg"
+  },
+  {
+    "id": 79109599,
+    "name": "King of the Swamp",
+    "points": 5,
+    "type": "Effect Monster",
+    "race": "Aqua",
+    "attribute": "WATER",
+    "level": 3,
+    "atk": 500,
+    "def": 1100,
+    "desc": "This card can be used as a substitute for any 1 Fusion Material whose name is specifically listed on the Fusion Monster Card, but the other Fusion Material(s) must be correct. You can discard this card to the Graveyard; add 1 \"Polymerization\" from your Deck to your hand.",
+    "image": "images/79109599.jpg"
+  },
+  {
+    "id": 17449108,
+    "name": "Nobleman of Extermination",
+    "points": 0,
+    "type": "Spell Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Select, destroy, and remove from play 1 face-down Spell or Trap Card. If it was a Trap Card, both players must remove from play all copies of that card from their Decks.",
+    "image": "images/17449108.jpg"
   }
 ]
