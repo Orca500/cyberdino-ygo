@@ -379,7 +379,7 @@
   {
     "id": 30603688,
     "name": "Apprentice Illusion Magician",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -2602,7 +2602,7 @@
   {
     "id": 91623717,
     "name": "Chain Strike",
-    "points": 3,
+    "points": 5,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -3967,7 +3967,7 @@
   {
     "id": 40737112,
     "name": "Dark Magician of Chaos",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -4669,7 +4669,7 @@
   {
     "id": 38179121,
     "name": "Double Evolution Pill",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -5202,7 +5202,7 @@
   {
     "id": 67723438,
     "name": "Emergency Teleport",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -10714,7 +10714,7 @@
   {
     "id": 33198837,
     "name": "Naturia Beast",
-    "points": 20,
+    "points": 15,
     "type": "Synchro Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -12612,7 +12612,7 @@
   {
     "id": 6172122,
     "name": "Red-Eyes Fusion",
-    "points": 25,
+    "points": 20,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -14887,7 +14887,7 @@
   {
     "id": 34244455,
     "name": "Star Staring Starling",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -17227,7 +17227,7 @@
   {
     "id": 78229193,
     "name": "White Aura Dolphin",
-    "points": 20,
+    "points": 15,
     "type": "Synchro Monster",
     "race": "Fish",
     "attribute": "WATER",
@@ -17938,5 +17938,18 @@
     "def": null,
     "desc": "Select, destroy, and remove from play 1 face-down Spell or Trap Card. If it was a Trap Card, both players must remove from play all copies of that card from their Decks.",
     "image": "images/17449108.jpg"
+  },
+  {
+    "id": 62279055,
+    "name": "Magic Cylinder",
+    "points": 0,
+    "type": "Trap Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "When an opponent's monster declares an attack: Target the attacking monster; negate the attack, and if you do, inflict damage to your opponent equal to its ATK.",
+    "image": "images/62279055.jpg"
   }
 ]
