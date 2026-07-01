@@ -15,6 +15,7 @@ function populateFilters() {
     const monsterTypes = new Set();
     const monsterClasses = new Set();
     const attributes = new Set();
+    const archetypes = new Set();
 
     cards.forEach(card => {
         if (card.race) {
@@ -34,6 +35,10 @@ function populateFilters() {
 
         if (card.attribute) {
             attributes.add(card.attribute);
+        }
+
+        if (card.archetype) {
+            archetypes.add(card.archetype);
         }
     });
 
@@ -81,6 +86,21 @@ const attributeSelect =
             option.textContent = attr;
 
             attributeSelect.appendChild(option);
+        });
+
+    const archetypeSelect =
+        document.getElementById("archetype");
+
+    [...archetypes]
+        .sort()
+        .forEach(archetype => {
+            const option =
+                document.createElement("option");
+
+            option.value = archetype;
+            option.textContent = archetype;
+
+            archetypeSelect.appendChild(option);
         });
 }
 
@@ -217,6 +237,16 @@ if (monsterClass) {
     if (attribute) {
         filtered = filtered.filter(
             card => card.attribute === attribute
+        );
+    }
+
+    const archetype =
+        document.getElementById("archetype")
+            .value;
+
+    if (archetype) {
+        filtered = filtered.filter(
+            card => card.archetype === archetype
         );
     }
 

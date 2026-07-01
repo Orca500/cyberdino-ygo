@@ -214,3 +214,9 @@ body {
 #lightbox.decks-mode #decksContent{
     display:block;
 }
+
+#decksContent .deckSection:first-child{
+    margin-top:0;
+    padding-top:0;
+    border-top:0;
+}
