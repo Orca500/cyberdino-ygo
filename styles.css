@@ -82,33 +82,32 @@ body {
 
 .errataBadge {
     position: absolute;
-    top: 92px;
-    right: 4px;
-    width: 38px;
+    top: 90px;
+    right: -1px;
+    width: 46px;
     height: 34px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    font-family: "Arial Black", Impact, sans-serif;
-    font-size: 8px;
+    font-family: Impact, "Arial Black", Haettenschweiler, sans-serif;
+    font-size: 14px;
     font-weight: 900;
-    line-height: 0.88;
-    letter-spacing: -0.05em;
+    line-height: 0.78;
+    letter-spacing: -0.08em;
     text-align: center;
+    text-transform: uppercase;
     white-space: pre-line;
     color: #000;
-    -webkit-text-stroke: 1.5px #ff4f1f;
+    -webkit-text-stroke: 0.8px #ff4f1f;
     paint-order: stroke fill;
     text-shadow:
-        -1.5px -1.5px 0 #ff4f1f,
-         1.5px -1.5px 0 #ff4f1f,
-        -1.5px  1.5px 0 #ff4f1f,
-         1.5px  1.5px 0 #ff4f1f,
-         0     -1.5px 0 #ff4f1f,
-         0      1.5px 0 #ff4f1f,
-        -1.5px  0     0 #ff4f1f,
-         1.5px  0     0 #ff4f1f;
+        -0.8px  0     0 #ff4f1f,
+         0.8px  0     0 #ff4f1f,
+         0     -0.8px 0 #ff4f1f,
+         0      0.8px 0 #ff4f1f;
+    transform: scaleX(0.78);
+    transform-origin: center center;
 }
 
 #lightbox {
