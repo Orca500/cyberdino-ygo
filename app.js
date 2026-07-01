@@ -394,6 +394,17 @@ filtered.forEach(card => {
             div.appendChild(badge);
         }
 
+        if (card.errata) {
+
+            const errataBadge =
+                document.createElement("div");
+
+            errataBadge.className = "errataBadge";
+            errataBadge.textContent = "pre-\nerrata";
+
+            div.appendChild(errataBadge);
+        }
+
         div.addEventListener("mousedown", () => {
 
             const lightbox =
