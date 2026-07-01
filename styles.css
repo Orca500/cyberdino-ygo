@@ -80,28 +80,32 @@ body {
     font-weight: bold;
 }
 
-\.errataBadge {
+.errataBadge {
     position: absolute;
-    top: 88px;
-    right: -8px;
-    width: 58px;
+    top: 90px;
+    right: -5px;
+    width: 54px;
     height: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    font-family: Impact, "Arial Black", "Franklin Gothic Heavy", sans-serif;
-    font-size: 16px;
+    font-family: Impact, "Arial Black", Haettenschweiler, sans-serif;
+    font-size: 13px;
     font-weight: 900;
-    line-height: 0.82;
-    letter-spacing: 0.02em;
+    line-height: 0.88;
+    letter-spacing: 0.025em;
     text-align: center;
     text-transform: uppercase;
     white-space: pre-line;
     color: #000;
     -webkit-text-stroke: 0.55px #ff4f1f;
     paint-order: stroke fill;
-    text-shadow: none;
+    text-shadow:
+        -0.55px  0      0 #ff4f1f,
+         0.55px  0      0 #ff4f1f,
+         0      -0.55px 0 #ff4f1f,
+         0       0.55px 0 #ff4f1f;
 }
 
 #lightbox {
