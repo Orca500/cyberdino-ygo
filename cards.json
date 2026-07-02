@@ -1907,7 +1907,7 @@
   {
     "id": 82422049,
     "name": "Blessings for Gusto",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -7808,7 +7808,7 @@
   {
     "id": 30213599,
     "name": "Gravekeeper's Descendant",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -8116,7 +8116,7 @@
   {
     "id": 9897998,
     "name": "Gusto Codor",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -10085,8 +10085,7 @@
     "def": 1000,
     "desc": "Once per turn: You can discard 1 card, then target 1 Level 4 or lower \"Lightsworn\" monster in your GY; Special Summon that target. Once per turn, during your End Phase: Send the top 3 cards of your Deck to the GY.",
     "image": "images/95503687.jpg",
-    "archetype": "Lightsworn",
-    "errata": true
+    "archetype": "Lightsworn"
   },
   {
     "id": 48596760,
@@ -10142,8 +10141,7 @@
     "def": 200,
     "desc": "You can target 1 Spell/Trap your opponent controls; this card's battle position cannot be changed until the end of your next turn, also change this card you control from face-up Attack Position to face-up Defense Position, and if you do, destroy that target. Once per turn, during your End Phase: Send the top 3 cards of your Deck to the GY.",
     "image": "images/22624373.jpg",
-    "archetype": "Lightsworn",
-    "errata": true
+    "archetype": "Lightsworn"
   },
   {
     "id": 25518020,
@@ -16412,7 +16410,7 @@
   {
     "id": 70786111,
     "name": "Stonehenge",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -18835,7 +18833,7 @@
   {
     "id": 91822647,
     "name": "Whirlwind of Gusto",
-    "points": 7,
+    "points": 3,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
