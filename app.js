@@ -15,23 +15,26 @@ function populateFilters() {
     const monsterTypes = new Set();
     const monsterClasses = new Set();
     const attributes = new Set();
+    const spellTrapTypes = new Set();
     const archetypes = new Set();
 
     cards.forEach(card => {
+        const cardType = card.type || "";
+        const isMonster = cardType.includes("Monster");
+        const isSpellOrTrap = cardType.includes("Spell") || cardType.includes("Trap");
+
         if (card.race) {
-            monsterTypes.add(card.race);
+            if (isMonster) {
+                monsterTypes.add(card.race);
+            } else if (isSpellOrTrap) {
+                spellTrapTypes.add(card.race);
+            }
         }
 
-        if (card.type) {
-
-    if (card.type.includes("Monster")) {
-
-        const className =
-            card.type.replace(" Monster", "");
-
-        monsterClasses.add(className);
-    }
-}
+        if (isMonster) {
+            const className = cardType.replace(" Monster", "");
+            monsterClasses.add(className);
+        }
 
         if (card.attribute) {
             attributes.add(card.attribute);
@@ -57,24 +60,23 @@ function populateFilters() {
             monsterSelect.appendChild(option);
         });
 
-const monsterClassSelect =
-    document.getElementById("monsterClass");
+    const monsterClassSelect =
+        document.getElementById("monsterClass");
 
-[...monsterClasses]
-    .sort()
-    .forEach(type => {
+    [...monsterClasses]
+        .sort()
+        .forEach(type => {
+            const option =
+                document.createElement("option");
 
-        const option =
-            document.createElement("option");
+            option.value = type;
+            option.textContent = type;
 
-        option.value = type;
-        option.textContent = type;
+            monsterClassSelect.appendChild(option);
+        });
 
-        monsterClassSelect.appendChild(option);
-    });
-
-const attributeSelect =
-    document.getElementById("attribute");
+    const attributeSelect =
+        document.getElementById("attribute");
 
     [...attributes]
         .sort()
@@ -86,6 +88,21 @@ const attributeSelect =
             option.textContent = attr;
 
             attributeSelect.appendChild(option);
+        });
+
+    const spellTrapTypeSelect =
+        document.getElementById("spellTrapType");
+
+    [...spellTrapTypes]
+        .sort()
+        .forEach(type => {
+            const option =
+                document.createElement("option");
+
+            option.value = type;
+            option.textContent = type;
+
+            spellTrapTypeSelect.appendChild(option);
         });
 
     const archetypeSelect =
@@ -209,8 +226,10 @@ function renderCards() {
             .value;
 
     if (monsterType) {
-        filtered = filtered.filter(
-            card => card.race === monsterType
+        filtered = filtered.filter(card =>
+            card.type &&
+            card.type.includes("Monster") &&
+            card.race === monsterType
         );
     }
     
@@ -237,6 +256,18 @@ if (monsterClass) {
     if (attribute) {
         filtered = filtered.filter(
             card => card.attribute === attribute
+        );
+    }
+
+    const spellTrapType =
+        document.getElementById("spellTrapType")
+            .value;
+
+    if (spellTrapType) {
+        filtered = filtered.filter(card =>
+            card.type &&
+            (card.type.includes("Spell") || card.type.includes("Trap")) &&
+            card.race === spellTrapType
         );
     }
 
