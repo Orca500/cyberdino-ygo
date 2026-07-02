@@ -3182,20 +3182,6 @@
     "archetype": "Fire King"
   },
   {
-    "id": 21570001,
-    "name": "Clear New World",
-    "points": 7,
-    "type": "Spell Card",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Target 1 face-up monster you control; destroy it, and if you do, Special Summon 1 monster from your Deck in Defense Position, with a different original Type and Attribute, whose Level is lower than that monster's original Level, but negate its effects. You can only activate 1 \"Clear New World\" per turn.",
-    "image": "images/21570001.jpg",
-    "archetype": null
-  },
-  {
     "id": 78082039,
     "name": "Closed Forest",
     "points": 7,
