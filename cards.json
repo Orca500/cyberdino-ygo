@@ -590,7 +590,7 @@
   {
     "id": 59969392,
     "name": "Archfiend Zombie-Skull",
-    "points": 10,
+    "points": 7,
     "type": "Synchro Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -1655,7 +1655,7 @@
   {
     "id": 22835145,
     "name": "Blackwing - Blizzard the Far North",
-    "points": 5,
+    "points": 3,
     "type": "Tuner Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -1683,7 +1683,7 @@
   {
     "id": 19462747,
     "name": "Blackwing - Decay the Ill Wind",
-    "points": 1,
+    "points": 0,
     "type": "Tuner Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -2258,7 +2258,7 @@
   {
     "id": 71413901,
     "name": "Breaker the Magical Warrior",
-    "points": 2,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -3310,7 +3310,7 @@
   {
     "id": 44656450,
     "name": "Condemned Witch",
-    "points": 15,
+    "points": 12,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "DARK",
@@ -3492,7 +3492,7 @@
   {
     "id": 78811937,
     "name": "Creeping Darkness",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -3898,7 +3898,7 @@
   {
     "id": 7572887,
     "name": "D.D. Warrior Lady",
-    "points": 0,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -4992,7 +4992,7 @@
   {
     "id": 76039636,
     "name": "Doom Dozer",
-    "points": 5,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Insect",
     "attribute": "EARTH",
@@ -6532,7 +6532,7 @@
   {
     "id": 98829635,
     "name": "Forbidden Crown",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -7653,7 +7653,7 @@
   {
     "id": 44330098,
     "name": "Gorz the Emissary of Darkness",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -8102,7 +8102,7 @@
   {
     "id": 9897998,
     "name": "Gusto Codor",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -8130,7 +8130,7 @@
   {
     "id": 46044841,
     "name": "Gusto Falco",
-    "points": 3,
+    "points": 0,
     "type": "Tuner Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -8466,7 +8466,7 @@
   {
     "id": 92266279,
     "name": "Humid Winds",
-    "points": 10,
+    "points": 15,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -10118,7 +10118,7 @@
   {
     "id": 22624373,
     "name": "Lyla, Lightsworn Sorceress",
-    "points": 2,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -10593,18 +10593,18 @@
     "archetype": "Mask"
   },
   {
-    "id": 56948373,
-    "name": "Mask of the Accursed",
     "points": 0,
+    "id": 83584898,
+    "name": "Darkworld Shackles",
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
     "level": null,
     "atk": null,
     "def": null,
-    "desc": "The equipped monster cannot attack. Once per turn, during your Standby Phase: Inflict 500 damage to the controller of the equipped monster.",
-    "image": "images/56948373.jpg",
-    "archetype": "Mask"
+    "desc": "The equipped monster cannot attack, also its ATK and DEF become 100. During each of your Standby Phases: Inflict 500 damage to the controller of the equipped monster.",
+    "archetype": null,
+    "image": "images/83584898.jpg"
   },
   {
     "id": 39191307,
@@ -10721,7 +10721,7 @@
   {
     "id": 22046459,
     "name": "Megamorph",
-    "points": 2,
+    "points": 0,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -10763,7 +10763,7 @@
   {
     "id": 60080151,
     "name": "Memory of an Adversary",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -11043,7 +11043,7 @@
   {
     "id": 15800838,
     "name": "Mind Crush",
-    "points": 3,
+    "points": 2,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -11155,7 +11155,7 @@
   {
     "id": 21636650,
     "name": "Miracle's Wake",
-    "points": 3,
+    "points": 1,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -12345,7 +12345,7 @@
   {
     "id": 33782437,
     "name": "One Day of Peace",
-    "points": 3,
+    "points": 2,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -15191,7 +15191,7 @@
   {
     "id": 24081957,
     "name": "Sinful Spoils of Subversion - Snake-Eye",
-    "points": 5,
+    "points": 3,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -15514,7 +15514,7 @@
   {
     "id": 41420027,
     "name": "Solemn Judgment",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -15542,7 +15542,7 @@
   {
     "id": 40605147,
     "name": "Solemn Strike",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -15556,7 +15556,7 @@
   {
     "id": 84749824,
     "name": "Solemn Warning",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -17334,7 +17334,7 @@
   {
     "id": 21208154,
     "name": "The Wicked Avatar",
-    "points": 30,
+    "points": 25,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -18273,7 +18273,7 @@
   {
     "id": 56747793,
     "name": "United We Stand",
-    "points": 2,
+    "points": 0,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -19335,5 +19335,173 @@
     "desc": "1 EARTH Tuner + 1 or more non-Tuner monsters\nWhen this card destroys an opponent's monster by battle and sends it to the Graveyard: You can Special Summon that monster to your field in Defense Position.",
     "archetype": "Guardian",
     "image": "images/7391448.jpg"
+  },
+  {
+    "points": 0,
+    "id": 81510157,
+    "name": "Soul Taker",
+    "type": "Spell Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 face-up monster your opponent controls; destroy that target, then your opponent gains 1000 LP.",
+    "archetype": null,
+    "image": "images/81510157.jpg"
+  },
+  {
+    "points": 0,
+    "id": 4335645,
+    "name": "Newdoria",
+    "type": "Effect Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1200,
+    "def": 800,
+    "desc": "If this card is destroyed by battle and sent to the GY: Target 1 monster on the field; destroy that target.",
+    "archetype": null,
+    "image": "images/4335645.jpg"
+  },
+  {
+    "points": 0,
+    "id": 70046172,
+    "name": "Rush Recklessly",
+    "type": "Spell Card",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 face-up monster on the field; it gains 700 ATK until the end of this turn.",
+    "archetype": null,
+    "image": "images/70046172.jpg"
+  },
+  {
+    "points": 0,
+    "id": 71453557,
+    "name": "Autonomous Action Unit",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Pay 1500 Life Points, then target 1 monster in your opponent's Graveyard; Special Summon that target to your side of the field in face-up Attack Position, and equip it with this card. When this card leaves the field, destroy the equipped monster.",
+    "archetype": null,
+    "image": "images/71453557.jpg"
+  },
+  {
+    "points": 0,
+    "id": 98867329,
+    "name": "Cursed Armaments",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "The equipped monster loses 600 ATK for each monster you control. When this card is sent from the field to the Graveyard: You can target 1 face-up monster your opponent controls; equip it with this card.",
+    "archetype": null,
+    "image": "images/98867329.jpg"
+  },
+  {
+    "points": 0,
+    "id": 42149850,
+    "name": "Disposable Learner Device",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "The equipped monster gains 200 ATK for each monster in your GY. During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can Set this card, but banish it when it leaves the field. You can only use this effect of \"Disposable Learner Device\" once per turn.",
+    "archetype": null,
+    "image": "images/42149850.jpg"
+  },
+  {
+    "points": 0,
+    "id": 63300440,
+    "name": "Dragon Shield",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Equip only to a Dragon-Type monster. It cannot be destroyed by battle or by card effects. Neither player takes any battle damage from attacks involving it.",
+    "archetype": null,
+    "image": "images/63300440.jpg"
+  },
+  {
+    "points": 0,
+    "id": 30502181,
+    "name": "Lightsworn Sabre",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Equip only to a \"Lightsworn\" monster. It gains 700 ATK. When this card is sent from your Deck to the Graveyard: You can target 1 \"Lightsworn\" monster you control; equip this card to that target.",
+    "archetype": "Lightsworn",
+    "image": "images/30502181.jpg"
+  },
+  {
+    "points": 0,
+    "id": 12760674,
+    "name": "Mordschlag",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Equip only to a Normal Summoned/Set monster you control. It is unaffected by your opponent's activated effects of Special Summoned monsters. During damage calculation, if the equipped monster battles an opponent's Special Summoned monster: That opponent's monster loses ATK/DEF equal to the equipped monster's original ATK, during that damage calculation only.",
+    "archetype": null,
+    "image": "images/12760674.jpg"
+  },
+  {
+    "points": 7,
+    "id": 66947913,
+    "name": "Rising Fire",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "(This card is always treated as a \"Salamangreat\" card.)\r\nIf you control no monsters: Activate this card by targeting 1 FIRE monster in your GY; Special Summon it and equip it with this card. The equipped monster gains 500 ATK. When this card leaves the field, destroy that monster. If this card in your possession is destroyed by an opponent's card effect: You can banish 1 monster on the field. You can only use each effect of \"Rising Fire\" once per turn.",
+    "archetype": "Salamangreat",
+    "image": "images/66947913.jpg"
+  },
+  {
+    "points": 0,
+    "id": 78794994,
+    "name": "Symbols of Duty",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Send 1 Normal Monster you control to the Graveyard, then target 1 monster in either player's Graveyard; Special Summon it, and if you do, equip this card to it. When this card leaves the field, destroy the equipped monster.",
+    "archetype": null,
+    "image": "images/78794994.jpg"
+  },
+  {
+    "points": 0,
+    "id": 68392533,
+    "name": "Telekinetic Charging Cell",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Equip only to a Psychic-Type monster. You do not have to pay Life Points to activate its effect(s). When the equipped monster is destroyed and this card is sent to the Graveyard, you can pay 1000 Life Points to return this card to your hand.",
+    "archetype": null,
+    "image": "images/68392533.jpg"
   }
 ]
