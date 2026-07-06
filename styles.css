@@ -247,3 +247,26 @@ body {
     padding-top:0;
     border-top:0;
 }
+
+#decksContent .deckSection{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+#decksContent .deckSectionText{
+    flex:1 1 auto;
+    min-width:0;
+}
+
+#decksContent .deckThumb{
+    flex:0 0 50px;
+    width:50px;
+    height:50px;
+    max-width:50px;
+    max-height:50px;
+    object-fit:cover;
+    border-radius:4px;
+    margin-left:auto;
+}
+
