@@ -266,6 +266,8 @@ body {
     max-width:50px;
     max-height:50px;
     object-fit:cover;
+    display:block;
+    background:#2a2a2a;
     border-radius:4px;
     margin-left:auto;
 }

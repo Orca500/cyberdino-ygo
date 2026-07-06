@@ -583,33 +583,4 @@ if (decksText && decksContent) {
     });
 }
 
-function setupDeckThumbnails() {
-    [...document.querySelectorAll("#decksContent .deckThumb")].slice(0, 8).forEach((img, index) => {
-        const baseName = img.dataset.thumbBase || `t${index + 1}`;
-        const candidates = [
-            `images/${baseName}.png`,
-            `images/${baseName}.jpg`,
-            `images/${baseName}.jpeg`
-        ];
-
-        let candidateIndex = 0;
-
-        const tryNextCandidate = () => {
-            if (candidateIndex >= candidates.length) {
-                img.hidden = true;
-                img.removeAttribute("src");
-                return;
-            }
-
-            img.hidden = false;
-            img.src = candidates[candidateIndex];
-            candidateIndex += 1;
-        };
-
-        img.addEventListener("error", tryNextCandidate);
-        tryNextCandidate();
-    });
-}
-
-setupDeckThumbnails();
 
