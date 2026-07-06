@@ -3184,7 +3184,7 @@
   {
     "id": 78082039,
     "name": "Closed Forest",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Field",
     "attribute": null,
@@ -9054,7 +9054,7 @@
   {
     "id": 77585513,
     "name": "Jinzo",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "DARK",
