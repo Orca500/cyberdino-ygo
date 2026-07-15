@@ -7906,7 +7906,7 @@
   {
     "id": 61468779,
     "name": "Grandsoil the Elemental Lord",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Beast-Warrior",
     "attribute": "EARTH",
@@ -19380,7 +19380,7 @@
   {
     "id": 53027855,
     "name": "Windrose the Elemental Lord",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
