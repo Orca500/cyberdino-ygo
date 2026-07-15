@@ -2,7 +2,7 @@
   {
     "id": 37478723,
     "name": "\"Infernoble Arms - Durendal\"",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -392,6 +392,20 @@
     "archetype": "Monarch"
   },
   {
+    "points": 0,
+    "id": 73979030,
+    "name": "Angraecum Umbrella",
+    "type": "Tuner Monster",
+    "race": "Spellcaster",
+    "attribute": "WATER",
+    "level": 3,
+    "atk": 500,
+    "def": 1500,
+    "desc": "When this card is Normal Summoned: You can discard 1 card, then target 1 Level 4 or lower monster in your GY; Special Summon it in Defense Position, but negate its effects, also for the rest of this turn, you cannot Special Summon monsters from the Extra Deck, except Synchro Monsters.",
+    "archetype": null,
+    "image": "images/73979030.jpg"
+  },
+  {
     "id": 65064143,
     "name": "Anti-Aircraft Flower",
     "points": 0,
@@ -403,20 +417,6 @@
     "def": 1600,
     "desc": "By Tributing 1 Insect-Type monster on your side of the field, inflict 800 points of damage to your opponent's Life Points.",
     "image": "images/65064143.jpg",
-    "archetype": "Anti"
-  },
-  {
-    "id": 97120394,
-    "name": "Anti-Magic Arrows",
-    "points": 10,
-    "type": "Spell Card",
-    "race": "Quick-Play",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "At the start of the Battle Phase: For the rest of this turn after this card resolves, Spell/Trap Cards, and their effects, cannot be activated. Cards and effects cannot be activated in response to this card's activation.",
-    "image": "images/97120394.jpg",
     "archetype": "Anti"
   },
   {
@@ -674,7 +674,7 @@
   {
     "id": 28985331,
     "name": "Armageddon Knight",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -855,6 +855,20 @@
     "archetype": null
   },
   {
+    "points": 1,
+    "id": 37910722,
+    "name": "Ascension Sky Dragon",
+    "type": "Synchro Monster",
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "level": 10,
+    "atk": -1,
+    "def": 3000,
+    "desc": "1 Tuner + 1+ non-Tuner monsters\r\nIf this card is Synchro Summoned: It gains 800 ATK for each card currently in your hand. When this card you control is destroyed by your opponent's card and sent to your GY, if all of the monsters that were used for the Synchro Summon of this card are in your GY: You can Special Summon all of them, but their effects are negated. You can only use this effect of \"Ascension Sky Dragon\" once per turn.",
+    "archetype": null,
+    "image": "images/37910722.jpg"
+  },
+  {
     "id": 72714226,
     "name": "Assault Dog",
     "points": 0,
@@ -939,6 +953,20 @@
     "archetype": null
   },
   {
+    "points": 0,
+    "id": 71453557,
+    "name": "Autonomous Action Unit",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Pay 1500 Life Points, then target 1 monster in your opponent's Graveyard; Special Summon that target to your side of the field in face-up Attack Position, and equip it with this card. When this card leaves the field, destroy the equipped monster.",
+    "archetype": null,
+    "image": "images/71453557.jpg"
+  },
+  {
     "id": 29139104,
     "name": "Avalanching Aussa",
     "points": 5,
@@ -1011,7 +1039,7 @@
   {
     "id": 42502956,
     "name": "Ayers Rock Sunrise",
-    "points": 12,
+    "points": 10,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -1165,7 +1193,7 @@
   {
     "id": 19740112,
     "name": "Barrier Statue of the Drought",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Rock",
     "attribute": "EARTH",
@@ -1179,7 +1207,7 @@
   {
     "id": 47961808,
     "name": "Barrier Statue of the Inferno",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Pyro",
     "attribute": "FIRE",
@@ -1193,7 +1221,7 @@
   {
     "id": 73356503,
     "name": "Barrier Statue of the Stormwinds",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -1207,7 +1235,7 @@
   {
     "id": 10963799,
     "name": "Barrier Statue of the Torrent",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Aqua",
     "attribute": "WATER",
@@ -1459,7 +1487,7 @@
   {
     "id": 5439384,
     "name": "Birth of the Prominence Flame",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -1681,6 +1709,20 @@
     "archetype": "Blackwing"
   },
   {
+    "points": 0,
+    "id": 58131925,
+    "name": "Blackwing - Damascus the Polar Night",
+    "type": "Effect Monster",
+    "race": "Winged Beast",
+    "attribute": "DARK",
+    "level": 3,
+    "atk": 1300,
+    "def": 700,
+    "desc": "During either player's turn: You can discard this card to target 1 \"Blackwing\" monster you control; it gains 500 ATK until the End Phase.",
+    "archetype": "Blackwing",
+    "image": "images/58131925.jpg"
+  },
+  {
     "id": 19462747,
     "name": "Blackwing - Decay the Ill Wind",
     "points": 0,
@@ -1781,7 +1823,7 @@
   {
     "id": 75498415,
     "name": "Blackwing - Sirocco the Dawn",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -1823,7 +1865,7 @@
   {
     "id": 69031175,
     "name": "Blackwing Armor Master",
-    "points": 5,
+    "points": 3,
     "type": "Synchro Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -1861,6 +1903,20 @@
     "desc": "When this card is changed from Attack Position to face-up Defense Position, destroy 1 monster on your opponent's side of the field.",
     "image": "images/58268433.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 98239899,
+    "name": "Blast with Chain",
+    "type": "Trap Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 face-up monster you control; equip this card to that target. It gains 500 ATK. If this card is destroyed by a card effect while equipped: Target 1 card on the field; destroy that target.",
+    "archetype": null,
+    "image": "images/98239899.jpg"
   },
   {
     "id": 21466326,
@@ -2045,20 +2101,6 @@
     "archetype": "Blue-Eyes"
   },
   {
-    "id": 8715625,
-    "name": "Bokoichi the Freightening Car",
-    "points": 0,
-    "type": "Normal Monster",
-    "race": "Machine",
-    "attribute": "DARK",
-    "level": 2,
-    "atk": 500,
-    "def": 500,
-    "desc": "A freight car that is exclusively for Dekoichi. It can transport anything, but most cargo arrives broken.",
-    "image": "images/8715625.jpg",
-    "archetype": null
-  },
-  {
     "id": 37675138,
     "name": "Bone Crusher",
     "points": 0,
@@ -2117,7 +2159,7 @@
   {
     "id": 2204140,
     "name": "Book of Life",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2229,7 +2271,7 @@
   {
     "id": 87910978,
     "name": "Brain Control",
-    "points": 25,
+    "points": 20,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -2413,7 +2455,7 @@
   {
     "id": 50243722,
     "name": "Burst Rebirth",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -2525,7 +2567,7 @@
   {
     "id": 97803170,
     "name": "Call of the Archfiend",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -2539,7 +2581,7 @@
   {
     "id": 97077563,
     "name": "Call of the Haunted",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -2875,7 +2917,7 @@
   {
     "id": 4031928,
     "name": "Change of Heart",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -3198,7 +3240,7 @@
   {
     "id": 77840540,
     "name": "Cocoon of Ultra Evolution",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -3574,6 +3616,34 @@
     "archetype": null
   },
   {
+    "points": 0,
+    "id": 98867329,
+    "name": "Cursed Armaments",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "The equipped monster loses 600 ATK for each monster you control. When this card is sent from the field to the Graveyard: You can target 1 face-up monster your opponent controls; equip it with this card.",
+    "archetype": null,
+    "image": "images/98867329.jpg"
+  },
+  {
+    "points": 0,
+    "id": 71545247,
+    "name": "Cursed Bride Doll",
+    "type": "Tuner Monster",
+    "race": "Spellcaster",
+    "attribute": "EARTH",
+    "level": 3,
+    "atk": 0,
+    "def": 2100,
+    "desc": "When you draw this card: You can reveal it; Special Summon this card. At the start of each Battle Phase: If there are more cards in your Deck than your opponent's, this card gains ATK equal to the difference x 300, until the end of this turn. Once per turn, during the End Phase, if this card is in the GY because it was sent there this turn: Place this card on top of the Deck.",
+    "archetype": null,
+    "image": "images/71545247.jpg"
+  },
+  {
     "id": 18489208,
     "name": "Cursed Fig",
     "points": 0,
@@ -3772,7 +3842,7 @@
   {
     "id": 3657444,
     "name": "Cyber Valley",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -4010,7 +4080,7 @@
   {
     "id": 99745551,
     "name": "Danger!? Tsuchinoko?",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Reptile",
     "attribute": "DARK",
@@ -4220,7 +4290,7 @@
   {
     "id": 14536035,
     "name": "Dark Grepher",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -4248,7 +4318,7 @@
   {
     "id": 16964437,
     "name": "Dark Horizon",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -4318,7 +4388,7 @@
   {
     "id": 40737112,
     "name": "Dark Magician of Chaos",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -4483,6 +4553,20 @@
     "desc": "If this card destroys an opponent's monster by battle: You can banish 1 DARK monster from your Graveyard; draw 1 card. This card gains 100 ATK for each DARK monster in your Graveyard.",
     "image": "images/76925842.jpg",
     "archetype": "Parshath"
+  },
+  {
+    "points": 0,
+    "id": 83584898,
+    "name": "Darkworld Shackles",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "The equipped monster cannot attack, also its ATK and DEF become 100. During each of your Standby Phases: Inflict 500 damage to the controller of the equipped monster.",
+    "archetype": null,
+    "image": "images/83584898.jpg"
   },
   {
     "id": 12500059,
@@ -4669,7 +4753,7 @@
   {
     "id": 13974207,
     "name": "Denko Sekka",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Thunder",
     "attribute": "LIGHT",
@@ -4679,6 +4763,20 @@
     "desc": "Cannot be Special Summoned. While you control no Set Spells/Traps, neither player can Set Spells/Traps nor activate Spell/Trap Cards that are Set on the field.",
     "image": "images/13974207.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 69579761,
+    "name": "Des Koala",
+    "type": "Flip Effect Monster",
+    "race": "Beast",
+    "attribute": "DARK",
+    "level": 3,
+    "atk": 1100,
+    "def": 1800,
+    "desc": "FLIP: Inflict 400 damage to your opponent for each card in their hand.",
+    "archetype": "Koala",
+    "image": "images/69579761.jpg"
   },
   {
     "id": 2326738,
@@ -4838,7 +4936,7 @@
   {
     "id": 23557835,
     "name": "Dimension Fusion",
-    "points": 35,
+    "points": 33,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -4866,7 +4964,7 @@
   {
     "id": 81674782,
     "name": "Dimensional Fissure",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -4932,6 +5030,20 @@
     "desc": "''A cute little thing who lives in a glass bottle and is said to bring good luck to the one who makes a contract with it. The lid must never be opened, no matter what happens...''",
     "image": "images/46533533.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 42149850,
+    "name": "Disposable Learner Device",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "The equipped monster gains 200 ATK for each monster in your GY. During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can Set this card, but banish it when it leaves the field. You can only use this effect of \"Disposable Learner Device\" once per turn.",
+    "archetype": null,
+    "image": "images/42149850.jpg"
   },
   {
     "id": 20277376,
@@ -5034,7 +5146,7 @@
   {
     "id": 39185163,
     "name": "Doomking Balerdroch",
-    "points": 35,
+    "points": 33,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -5062,7 +5174,7 @@
   {
     "id": 38179121,
     "name": "Double Evolution Pill",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -5086,6 +5198,20 @@
     "desc": "If this card is Normal or Special Summoned: You can target 1 face-up monster on the field; that target is treated as a Tuner this turn. You can banish this card from your GY, then target 1 Fiend monster you control; that Fiend monster is treated as a Tuner this turn. You can only use this effect of \"Double Resonator\" once per turn.",
     "image": "images/60832978.jpg",
     "archetype": "Resonator"
+  },
+  {
+    "points": 0,
+    "id": 43422537,
+    "name": "Double Summon",
+    "type": "Spell Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "You can conduct 2 Normal Summons/Sets this turn, not just 1.",
+    "archetype": null,
+    "image": "images/43422537.jpg"
   },
   {
     "id": 55349196,
@@ -5156,6 +5282,20 @@
     "desc": "If you control a Spellcaster monster: You can target up to 2 Dragon monsters in your GY, including at least 1 Normal Monster; Special Summon them. Your opponent takes no damage this turn. You can only activate 1 \"Dragon Revival Rhapsody\" per turn.",
     "image": "images/71867500.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 63300440,
+    "name": "Dragon Shield",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Equip only to a Dragon-Type monster. It cannot be destroyed by battle or by card effects. Neither player takes any battle damage from attacks involving it.",
+    "archetype": null,
+    "image": "images/63300440.jpg"
   },
   {
     "id": 41620959,
@@ -5314,7 +5454,7 @@
   {
     "id": 35195612,
     "name": "Dust Knight",
-    "points": 7,
+    "points": 5,
     "type": "Flip Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -5454,7 +5594,7 @@
   {
     "id": 97268402,
     "name": "Effect Veiler",
-    "points": 2,
+    "points": 1,
     "type": "Tuner Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -5592,6 +5732,20 @@
     "archetype": "Elemental HERO"
   },
   {
+    "points": 0,
+    "id": 37195861,
+    "name": "Elemental HERO Ocean",
+    "type": "Effect Monster",
+    "race": "Warrior",
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 1500,
+    "def": 1200,
+    "desc": "Once per turn, during your Standby Phase: You can target 1 \"HERO\" monster you control or in your Graveyard; return that target to the hand.",
+    "archetype": "Elemental HERO",
+    "image": "images/37195861.jpg"
+  },
+  {
     "id": 45195443,
     "name": "Elemental HERO Solid Soldier",
     "points": 5,
@@ -5622,7 +5776,7 @@
   {
     "id": 22908820,
     "name": "Elemental HERO Sunrise",
-    "points": 10,
+    "points": 7,
     "type": "Fusion Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -5632,6 +5786,20 @@
     "desc": "2 \"HERO\" monsters with different Attributes\r\nMust be Fusion Summoned. Monsters you control gain 200 ATK for each different Attribute you control. You can only use each of the following effects of \"Elemental HERO Sunrise\" once per turn.\r\n● If this card is Special Summoned: You can add 1 \"Miracle Fusion\" from your Deck to your hand.\r\n● When an attack is declared involving another \"HERO\" monster you control: You can target 1 card on the field; destroy it.",
     "image": "images/22908820.jpg",
     "archetype": "Elemental HERO"
+  },
+  {
+    "points": 0,
+    "id": 86188410,
+    "name": "Elemental HERO Wildheart",
+    "type": "Effect Monster",
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "level": 4,
+    "atk": 1500,
+    "def": 1600,
+    "desc": "This card is unaffected by Trap effects.",
+    "archetype": "Elemental HERO",
+    "image": "images/86188410.jpg"
   },
   {
     "id": 67723438,
@@ -5664,7 +5832,7 @@
   {
     "id": 87462901,
     "name": "Emissary from the House of Wax",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Illusion",
     "attribute": "FIRE",
@@ -5720,7 +5888,7 @@
   {
     "id": 31550470,
     "name": "Escape from the Dark Dimension",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -5930,7 +6098,7 @@
   {
     "id": 97651498,
     "name": "Fabled Lurrie",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "LIGHT",
@@ -6196,7 +6364,7 @@
   {
     "id": 57103969,
     "name": "Fire Formation - Tenki",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -6350,7 +6518,7 @@
   {
     "id": 23297235,
     "name": "Flamvell Firedog",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "FIRE",
@@ -6476,7 +6644,7 @@
   {
     "id": 81439173,
     "name": "Foolish Burial",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -6490,7 +6658,7 @@
   {
     "id": 35726888,
     "name": "Foolish Burial Goods",
-    "points": 3,
+    "points": 1,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -7051,7 +7219,7 @@
   {
     "id": 64104037,
     "name": "Ghost Lancer, the Underworld Spearman",
-    "points": 0,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -7275,7 +7443,7 @@
   {
     "id": 29888389,
     "name": "Gishki Shadow",
-    "points": 5,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Sea Serpent",
     "attribute": "WATER",
@@ -7317,7 +7485,7 @@
   {
     "id": 41470137,
     "name": "Gladiator Beast Bestiari",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -7345,7 +7513,7 @@
   {
     "id": 57731460,
     "name": "Gladiator Beast Equeste",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "WIND",
@@ -7385,6 +7553,20 @@
     "archetype": "Gladiator Beast"
   },
   {
+    "points": 0,
+    "id": 4253484,
+    "name": "Gladiator Beast Hoplomus",
+    "type": "Effect Monster",
+    "race": "Rock",
+    "attribute": "EARTH",
+    "level": 4,
+    "atk": 700,
+    "def": 2100,
+    "desc": "If this card was Special Summoned by the effect of a \"Gladiator Beast\" monster, its original DEF becomes 2400. At the end of the Battle Phase, if this card attacked or was attacked: You can shuffle it into the Deck; Special Summon 1 \"Gladiator Beast\" monster from your Deck, except \"Gladiator Beast Hoplomus\".",
+    "archetype": "Gladiator Beast",
+    "image": "images/4253484.jpg"
+  },
+  {
     "id": 78868776,
     "name": "Gladiator Beast Laquari",
     "points": 0,
@@ -7415,7 +7597,7 @@
   {
     "id": 29590752,
     "name": "Gladiator Beast Octavius",
-    "points": 3,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "LIGHT",
@@ -7665,6 +7847,21 @@
     "archetype": null
   },
   {
+    "points": 20,
+    "errata": true,
+    "id": 7391448,
+    "name": "Goyo Guardian",
+    "type": "Synchro Monster",
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "level": 6,
+    "atk": 2800,
+    "def": 2000,
+    "desc": "1 EARTH Tuner + 1 or more non-Tuner monsters\nWhen this card destroys an opponent's monster by battle and sends it to the Graveyard: You can Special Summon that monster to your field in Defense Position.",
+    "archetype": "Guardian",
+    "image": "images/7391448.jpg"
+  },
+  {
     "id": 52467217,
     "name": "Gozuki",
     "points": 5,
@@ -7794,7 +7991,7 @@
   {
     "id": 30213599,
     "name": "Gravekeeper's Descendant",
-    "points": 3,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -7822,7 +8019,7 @@
   {
     "id": 21663205,
     "name": "Gravekeeper's Headman",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -7836,7 +8033,7 @@
   {
     "id": 85646474,
     "name": "Gravekeeper's Nobleman",
-    "points": 3,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -7878,7 +8075,7 @@
   {
     "id": 58657303,
     "name": "Gravekeeper's Spiritualist",
-    "points": 7,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -7934,7 +8131,7 @@
   {
     "id": 85742772,
     "name": "Gravity Bind",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -8142,6 +8339,20 @@
     "archetype": "Gusto"
   },
   {
+    "points": 7,
+    "id": 42082363,
+    "name": "Gusto Griffin",
+    "type": "Effect Monster",
+    "race": "Winged Beast",
+    "attribute": "WIND",
+    "level": 2,
+    "atk": 800,
+    "def": 300,
+    "desc": "If this card is sent from the hand to your Graveyard: You can Special Summon 1 \"Gusto\" monster from your Deck. You can only use the effect of \"Gusto Griffin\" once per turn.",
+    "archetype": "Gusto",
+    "image": "images/42082363.jpg"
+  },
+  {
     "id": 65277087,
     "name": "Gusto Gulldo",
     "points": 5,
@@ -8154,20 +8365,6 @@
     "desc": "When this card is sent from the field to the Graveyard: You can Special Summon 1 Level 2 or lower \"Gusto\" monster from your Deck.",
     "image": "images/65277087.jpg",
     "archetype": "Gusto"
-  },
-  {
-    "id": 26412047,
-    "name": "Hammer Shot",
-    "points": 0,
-    "type": "Spell Card",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Destroy 1 face-up Attack Position monster with the highest ATK. (If it is a tie, you get to choose.)",
-    "image": "images/26412047.jpg",
-    "archetype": null
   },
   {
     "id": 98446407,
@@ -8308,6 +8505,20 @@
     "desc": "When your opponent activates a Spell Card (Quick Effect): You can send this card and 1 other Fairy monster from your hand to the GY; negate the activation, and if you do, destroy it.",
     "image": "images/21074344.jpg",
     "archetype": "Herald"
+  },
+  {
+    "points": 0,
+    "id": 90743290,
+    "name": "Hermit of Prophecy",
+    "type": "Effect Monster",
+    "race": "Spellcaster",
+    "attribute": "EARTH",
+    "level": 3,
+    "atk": 1200,
+    "def": 700,
+    "desc": "Each time a \"Spellbook\" Spell Card is activated, increase this card's Level by 2 and ATK by 300.",
+    "archetype": "Spellbook",
+    "image": "images/90743290.jpg"
   },
   {
     "id": 52105192,
@@ -8564,7 +8775,7 @@
   {
     "id": 53567095,
     "name": "Icarus Attack",
-    "points": 3,
+    "points": 2,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -8592,7 +8803,7 @@
   {
     "id": 4825390,
     "name": "Ichiroku's Ledger Book",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -8774,7 +8985,7 @@
   {
     "id": 96965364,
     "name": "Insect Imitation",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -8816,7 +9027,7 @@
   {
     "id": 1845204,
     "name": "Instant Fusion",
-    "points": 12,
+    "points": 10,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -8840,6 +9051,20 @@
     "desc": "If a monster you control is destroyed by battle or card effect and sent to the Graveyard: You can Special Summon this card from your hand.",
     "image": "images/25206027.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 23122036,
+    "name": "Intrigue Shield",
+    "type": "Trap Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 face-up monster you control; equip this card to that target. Once per turn, while the equipped monster is in Attack Position, it cannot be destroyed by battle. You take no battle damage from attacks involving it.",
+    "archetype": null,
+    "image": "images/23122036.jpg"
   },
   {
     "id": 56647086,
@@ -9054,7 +9279,7 @@
   {
     "id": 77585513,
     "name": "Jinzo",
-    "points": 10,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "DARK",
@@ -9334,7 +9559,7 @@
   {
     "id": 59575539,
     "name": "Krebons",
-    "points": 3,
+    "points": 1,
     "type": "Tuner Monster",
     "race": "Psychic",
     "attribute": "DARK",
@@ -9460,7 +9685,7 @@
   {
     "id": 85602018,
     "name": "Last Will",
-    "points": 20,
+    "points": 15,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -9626,6 +9851,20 @@
     "archetype": "Laval"
   },
   {
+    "points": 5,
+    "id": 32126000,
+    "name": "Learning Elf",
+    "type": "Effect Monster",
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "level": 3,
+    "atk": 1400,
+    "def": 1500,
+    "desc": "If this card is Normal or Special Summoned: You can Set 1 Trap from your Deck with an effect that equips itself to a monster. If this card is sent from the field to the GY: You can draw 1 card. You can only use each effect of \"Learning Elf\" once per turn.",
+    "archetype": null,
+    "image": "images/32126000.jpg"
+  },
+  {
     "id": 86541496,
     "name": "Left Arm Offering",
     "points": 0,
@@ -9726,7 +9965,7 @@
   {
     "id": 3136426,
     "name": "Level Limit - Area B",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -9904,6 +10143,20 @@
     "desc": "Target face-up cards your opponent controls, up to the number of \"Lightsworn\" monsters you control; negate their effects until the end of this turn. If this card is sent from the Deck to the GY: You can Set this card. You can only use each effect of \"Lightsworn Aegis\" once per turn.",
     "image": "images/25218587.jpg",
     "archetype": "Lightsworn"
+  },
+  {
+    "points": 0,
+    "id": 30502181,
+    "name": "Lightsworn Sabre",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Equip only to a \"Lightsworn\" monster. It gains 700 ATK. When this card is sent from your Deck to the Graveyard: You can target 1 \"Lightsworn\" monster you control; equip this card to that target.",
+    "archetype": "Lightsworn",
+    "image": "images/30502181.jpg"
   },
   {
     "id": 23898021,
@@ -10342,7 +10595,7 @@
   {
     "id": 71696014,
     "name": "Magician's Robe",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -10593,20 +10846,6 @@
     "archetype": "Mask"
   },
   {
-    "points": 0,
-    "id": 83584898,
-    "name": "Darkworld Shackles",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "The equipped monster cannot attack, also its ATK and DEF become 100. During each of your Standby Phases: Inflict 500 damage to the controller of the equipped monster.",
-    "archetype": null,
-    "image": "images/83584898.jpg"
-  },
-  {
     "id": 39191307,
     "name": "Masked Dragon",
     "points": 0,
@@ -10833,7 +11072,7 @@
   {
     "id": 44656491,
     "name": "Messenger of Peace",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -11127,7 +11366,7 @@
   {
     "id": 44887817,
     "name": "Miracle Fertilizer",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -11295,7 +11534,7 @@
   {
     "id": 59305593,
     "name": "Mistake",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -11407,7 +11646,7 @@
   {
     "id": 60621361,
     "name": "Monster Rebone",
-    "points": 7,
+    "points": 5,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -11421,7 +11660,7 @@
   {
     "id": 83764719,
     "name": "Monster Reborn",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -11435,7 +11674,7 @@
   {
     "id": 50213848,
     "name": "Monster Reborn Reborn",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -11487,6 +11726,20 @@
     "desc": "Shuffle 2 WATER monsters from your hand into the Deck, then draw 3 cards.",
     "image": "images/22123627.jpg",
     "archetype": "Greed"
+  },
+  {
+    "points": 0,
+    "id": 12760674,
+    "name": "Mordschlag",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Equip only to a Normal Summoned/Set monster you control. It is unaffected by your opponent's activated effects of Special Summoned monsters. During damage calculation, if the equipped monster battles an opponent's Special Summoned monster: That opponent's monster loses ATK/DEF equal to the equipped monster's original ATK, during that damage calculation only.",
+    "archetype": null,
+    "image": "images/12760674.jpg"
   },
   {
     "id": 33508719,
@@ -11951,6 +12204,20 @@
     "archetype": "Hole"
   },
   {
+    "points": 0,
+    "id": 4335645,
+    "name": "Newdoria",
+    "type": "Effect Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 4,
+    "atk": 1200,
+    "def": 800,
+    "desc": "If this card is destroyed by battle and sent to the GY: Target 1 monster on the field; destroy that target.",
+    "archetype": null,
+    "image": "images/4335645.jpg"
+  },
+  {
     "id": 16226786,
     "name": "Night Assailant",
     "points": 5,
@@ -12107,7 +12374,7 @@
   {
     "id": 98806751,
     "name": "Obsessive Uvualoop",
-    "points": 15,
+    "points": 12,
     "type": "Tuner Monster",
     "race": "Fiend",
     "attribute": "EARTH",
@@ -12721,6 +12988,20 @@
     "archetype": null
   },
   {
+    "points": 5,
+    "id": 71175527,
+    "name": "Pilica, Descendant of Gusto",
+    "type": "Effect Monster",
+    "race": "Psychic",
+    "attribute": "WIND",
+    "level": 3,
+    "atk": 1000,
+    "def": 1500,
+    "desc": "When this card is Normal or Special Summoned: You can target 1 WIND Tuner monster in your Graveyard; Special Summon that target in face-up Defense Position. Its effects are negated. If you activated this effect, you cannot Special Summon monsters for the rest of this turn, except WIND monsters. You can only use this effect of \"Pilica, Descendant of Gusto\" once per turn.",
+    "archetype": "Gusto",
+    "image": "images/71175527.jpg"
+  },
+  {
     "id": 26185991,
     "name": "Pinch Hopper",
     "points": 0,
@@ -12803,6 +13084,20 @@
     "desc": "If this card is in your GY: You can place 1 card from your hand on the top of the Deck; Special Summon this card, but banish it when it leaves the field.",
     "image": "images/33420078.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 54451023,
+    "name": "Plant Food Chain",
+    "type": "Trap Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 Plant-Type monster you control; equip this card to that target. It gains 500 ATK. If this card is destroyed by a card effect while equipped: You can target 1 Plant-Type monster in your Graveyard; Special Summon that target.",
+    "archetype": null,
+    "image": "images/54451023.jpg"
   },
   {
     "id": 24094653,
@@ -12905,7 +13200,7 @@
   {
     "id": 19844995,
     "name": "Power Filter",
-    "points": 12,
+    "points": 10,
     "type": "Spell Card",
     "race": "Continuous",
     "attribute": null,
@@ -12989,7 +13284,7 @@
   {
     "id": 70828912,
     "name": "Premature Burial",
-    "points": 12,
+    "points": 10,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -13031,7 +13326,7 @@
   {
     "id": 12298909,
     "name": "Prime Material Dragon",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -13493,7 +13788,7 @@
   {
     "id": 12580477,
     "name": "Raigeki",
-    "points": 35,
+    "points": 33,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -13563,7 +13858,7 @@
   {
     "id": 42444868,
     "name": "Rebirth of Parshath",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -13802,7 +14097,7 @@
   {
     "id": 67300516,
     "name": "Red-Eyes Wyvern",
-    "points": 7,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "WIND",
@@ -13816,7 +14111,7 @@
   {
     "id": 5186893,
     "name": "Red-Eyes Zombie Dragon",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -13985,7 +14280,7 @@
   {
     "id": 27174286,
     "name": "Return from the Different Dimension",
-    "points": 35,
+    "points": 33,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -14097,7 +14392,7 @@
   {
     "id": 83555666,
     "name": "Ring of Destruction",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -14136,6 +14431,20 @@
     "desc": "All WIND monsters gain 500 ATK and lose 400 DEF.",
     "image": "images/45778932.jpg",
     "archetype": null
+  },
+  {
+    "points": 7,
+    "id": 66947913,
+    "name": "Rising Fire",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "(This card is always treated as a \"Salamangreat\" card.)\r\nIf you control no monsters: Activate this card by targeting 1 FIRE monster in your GY; Special Summon it and equip it with this card. The equipped monster gains 500 ATK. When this card leaves the field, destroy that monster. If this card in your possession is destroyed by an opponent's card effect: You can banish 1 monster on the field. You can only use each effect of \"Rising Fire\" once per turn.",
+    "archetype": "Salamangreat",
+    "image": "images/66947913.jpg"
   },
   {
     "id": 71971554,
@@ -14294,7 +14603,7 @@
   {
     "id": 51452091,
     "name": "Royal Decree",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -14350,7 +14659,7 @@
   {
     "id": 93016201,
     "name": "Royal Oppression",
-    "points": 25,
+    "points": 20,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -14360,6 +14669,20 @@
     "desc": "Either player can pay 800 Life Points to negate the Special Summon of a monster(s), and/or an effect that Special Summons a monster(s), and destroy those cards.",
     "image": "images/93016201.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 70046172,
+    "name": "Rush Recklessly",
+    "type": "Spell Card",
+    "race": "Quick-Play",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 face-up monster on the field; it gains 700 ATK until the end of this turn.",
+    "archetype": null,
+    "image": "images/70046172.jpg"
   },
   {
     "id": 21502796,
@@ -14532,7 +14855,7 @@
   {
     "id": 68989981,
     "name": "Samurai Skull",
-    "points": 7,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -14687,7 +15010,7 @@
   {
     "id": 76774528,
     "name": "Scrap Dragon",
-    "points": 5,
+    "points": 3,
     "type": "Synchro Monster",
     "race": "Dragon",
     "attribute": "EARTH",
@@ -14729,7 +15052,7 @@
   {
     "id": 64550682,
     "name": "Scrap Orthros",
-    "points": 5,
+    "points": 0,
     "type": "Tuner Monster",
     "race": "Beast",
     "attribute": "EARTH",
@@ -14785,7 +15108,7 @@
   {
     "id": 50278554,
     "name": "Scrap Twin Dragon",
-    "points": 5,
+    "points": 3,
     "type": "Synchro Monster",
     "race": "Dragon",
     "attribute": "EARTH",
@@ -14853,6 +15176,20 @@
     "archetype": null
   },
   {
+    "points": 0,
+    "id": 87685879,
+    "name": "Sea Koala",
+    "type": "Effect Monster",
+    "race": "Beast",
+    "attribute": "EARTH",
+    "level": 2,
+    "atk": 100,
+    "def": 1600,
+    "desc": "Once per turn: You can target 1 monster your opponent controls; change its ATK to 0 until the end of this turn. You must control a Beast-Type monster (other than this card) to activate and to resolve this effect.",
+    "archetype": "Koala",
+    "image": "images/87685879.jpg"
+  },
+  {
     "id": 96334243,
     "name": "Sea Monster of Theseus",
     "points": 1,
@@ -14897,7 +15234,7 @@
   {
     "id": 29303524,
     "name": "Seleglare the Luminous Lunar Dragon",
-    "points": 20,
+    "points": 25,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -15402,7 +15739,7 @@
   {
     "id": 45986603,
     "name": "Snatch Steal",
-    "points": 25,
+    "points": 20,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -15528,7 +15865,7 @@
   {
     "id": 92512625,
     "name": "Solemn Scolding",
-    "points": 5,
+    "points": 3,
     "type": "Trap Card",
     "race": "Counter",
     "attribute": null,
@@ -15680,6 +16017,20 @@
     "archetype": null
   },
   {
+    "points": 0,
+    "id": 81510157,
+    "name": "Soul Taker",
+    "type": "Spell Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Target 1 face-up monster your opponent controls; destroy that target, then your opponent gains 1000 LP.",
+    "archetype": null,
+    "image": "images/81510157.jpg"
+  },
+  {
     "id": 44335251,
     "name": "Souleating Oviraptor",
     "points": 15,
@@ -15752,7 +16103,7 @@
   {
     "id": 84636823,
     "name": "Spell Canceller",
-    "points": 10,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "WIND",
@@ -15822,7 +16173,7 @@
   {
     "id": 97997309,
     "name": "Spellbook of Fate",
-    "points": 5,
+    "points": 3,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -15850,7 +16201,7 @@
   {
     "id": 52628687,
     "name": "Spellbook of Life",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Equip",
     "attribute": null,
@@ -16130,7 +16481,7 @@
   {
     "id": 94096018,
     "name": "SPYGAL Misty",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -16172,7 +16523,7 @@
   {
     "id": 53989821,
     "name": "SPYRAL GEAR - Utility Wire",
-    "points": 15,
+    "points": 12,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -16186,7 +16537,7 @@
   {
     "id": 78080961,
     "name": "SPYRAL Quik-Fix",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "EARTH",
@@ -16214,7 +16565,7 @@
   {
     "id": 41091257,
     "name": "SPYRAL Super Agent",
-    "points": 3,
+    "points": 2,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -16228,7 +16579,7 @@
   {
     "id": 20584712,
     "name": "SPYRAL Tough",
-    "points": 3,
+    "points": 2,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "WIND",
@@ -16410,7 +16761,7 @@
   {
     "id": 83195035,
     "name": "Storm Dragon's Return",
-    "points": 12,
+    "points": 10,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -16508,7 +16859,7 @@
   {
     "id": 69145169,
     "name": "Successor Soul",
-    "points": 10,
+    "points": 7,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -16536,7 +16887,7 @@
   {
     "id": 23516703,
     "name": "Summon Limit",
-    "points": 15,
+    "points": 7,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -16578,7 +16929,7 @@
   {
     "id": 423585,
     "name": "Summoner Monk",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -16746,7 +17097,7 @@
   {
     "id": 33057951,
     "name": "Surface",
-    "points": 7,
+    "points": 5,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -16812,6 +17163,20 @@
     "desc": "After this card's activation, it remains on the field, but you must destroy it during the End Phase of your opponent's 3rd turn. When this card is activated: If your opponent controls a face-down monster, flip all monsters they control face-up. While this card is face-up on the field, your opponent's monsters cannot declare an attack.",
     "image": "images/72302403.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 78794994,
+    "name": "Symbols of Duty",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Send 1 Normal Monster you control to the Graveyard, then target 1 monster in either player's Graveyard; Special Summon it, and if you do, equip this card to it. When this card leaves the field, destroy the equipped monster.",
+    "archetype": null,
+    "image": "images/78794994.jpg"
   },
   {
     "id": 14507213,
@@ -16938,6 +17303,20 @@
     "desc": "1 Tuner + 1+ non-Tuner monsters\r\nIf this Synchro Summoned monster would be used as a Synchro Material, 1 monster in your hand can be used as 1 of the other materials. Unaffected by other monsters' effects.",
     "image": "images/55863245.jpg",
     "archetype": null
+  },
+  {
+    "points": 0,
+    "id": 68392533,
+    "name": "Telekinetic Charging Cell",
+    "type": "Spell Card",
+    "race": "Equip",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Equip only to a Psychic-Type monster. You do not have to pay Life Points to activate its effect(s). When the equipped monster is destroyed and this card is sent to the Graveyard, you can pay 1000 Life Points to return this card to your hand.",
+    "archetype": null,
+    "image": "images/68392533.jpg"
   },
   {
     "id": 6795211,
@@ -17082,7 +17461,7 @@
   {
     "id": 66574418,
     "name": "The Black Stone of Legend",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Dragon",
     "attribute": "DARK",
@@ -17418,7 +17797,7 @@
   {
     "id": 71564252,
     "name": "Thunder King Rai-Oh",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Thunder",
     "attribute": "LIGHT",
@@ -17446,7 +17825,7 @@
   {
     "id": 40450317,
     "name": "Ties of the Brethren",
-    "points": 15,
+    "points": 12,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -17502,7 +17881,7 @@
   {
     "id": 2055403,
     "name": "Time-Space Trap Hole",
-    "points": 1,
+    "points": 0,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -17923,7 +18302,7 @@
   {
     "id": 80230510,
     "name": "Tribute Burial",
-    "points": 7,
+    "points": 3,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -17951,7 +18330,7 @@
   {
     "id": 52687916,
     "name": "Trishula, Dragon of the Ice Barrier",
-    "points": 15,
+    "points": 12,
     "type": "Synchro Monster",
     "race": "Dragon",
     "attribute": "WATER",
@@ -17979,7 +18358,7 @@
   {
     "id": 34853266,
     "name": "Tsukuyomi",
-    "points": 7,
+    "points": 5,
     "type": "Spirit Monster",
     "race": "Spellcaster",
     "attribute": "DARK",
@@ -18231,7 +18610,7 @@
   {
     "id": 88554436,
     "name": "Unchained Soul of Shyama",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "WATER",
@@ -18441,7 +18820,7 @@
   {
     "id": 47084486,
     "name": "Vanity's Fiend",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Fiend",
     "attribute": "DARK",
@@ -18455,7 +18834,7 @@
   {
     "id": 72634965,
     "name": "Vanity's Ruler",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "LIGHT",
@@ -18483,7 +18862,7 @@
   {
     "id": 55125728,
     "name": "Vera the Vernusylph Goddess",
-    "points": 20,
+    "points": 15,
     "type": "Effect Monster",
     "race": "Fairy",
     "attribute": "EARTH",
@@ -19282,7 +19661,7 @@
   {
     "id": 81616639,
     "name": "Zombina",
-    "points": 10,
+    "points": 7,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "EARTH",
@@ -19320,272 +19699,5 @@
     "desc": "While you control another Dinosaur monster, your opponent's monsters cannot target this card for attacks. You can target 1 other card you control; destroy it. You can only use this effect of \"Zuttomozaurus\" once per turn.",
     "image": "images/24454387.jpg",
     "archetype": null
-  },
-  {
-    "points": 20,
-    "errata": true,
-    "id": 7391448,
-    "name": "Goyo Guardian",
-    "type": "Synchro Monster",
-    "race": "Warrior",
-    "attribute": "EARTH",
-    "level": 6,
-    "atk": 2800,
-    "def": 2000,
-    "desc": "1 EARTH Tuner + 1 or more non-Tuner monsters\nWhen this card destroys an opponent's monster by battle and sends it to the Graveyard: You can Special Summon that monster to your field in Defense Position.",
-    "archetype": "Guardian",
-    "image": "images/7391448.jpg"
-  },
-  {
-    "points": 0,
-    "id": 81510157,
-    "name": "Soul Taker",
-    "type": "Spell Card",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Target 1 face-up monster your opponent controls; destroy that target, then your opponent gains 1000 LP.",
-    "archetype": null,
-    "image": "images/81510157.jpg"
-  },
-  {
-    "points": 0,
-    "id": 4335645,
-    "name": "Newdoria",
-    "type": "Effect Monster",
-    "race": "Fiend",
-    "attribute": "DARK",
-    "level": 4,
-    "atk": 1200,
-    "def": 800,
-    "desc": "If this card is destroyed by battle and sent to the GY: Target 1 monster on the field; destroy that target.",
-    "archetype": null,
-    "image": "images/4335645.jpg"
-  },
-  {
-    "points": 0,
-    "id": 70046172,
-    "name": "Rush Recklessly",
-    "type": "Spell Card",
-    "race": "Quick-Play",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Target 1 face-up monster on the field; it gains 700 ATK until the end of this turn.",
-    "archetype": null,
-    "image": "images/70046172.jpg"
-  },
-  {
-    "points": 0,
-    "id": 71453557,
-    "name": "Autonomous Action Unit",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Pay 1500 Life Points, then target 1 monster in your opponent's Graveyard; Special Summon that target to your side of the field in face-up Attack Position, and equip it with this card. When this card leaves the field, destroy the equipped monster.",
-    "archetype": null,
-    "image": "images/71453557.jpg"
-  },
-  {
-    "points": 0,
-    "id": 98867329,
-    "name": "Cursed Armaments",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "The equipped monster loses 600 ATK for each monster you control. When this card is sent from the field to the Graveyard: You can target 1 face-up monster your opponent controls; equip it with this card.",
-    "archetype": null,
-    "image": "images/98867329.jpg"
-  },
-  {
-    "points": 0,
-    "id": 42149850,
-    "name": "Disposable Learner Device",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "The equipped monster gains 200 ATK for each monster in your GY. During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can Set this card, but banish it when it leaves the field. You can only use this effect of \"Disposable Learner Device\" once per turn.",
-    "archetype": null,
-    "image": "images/42149850.jpg"
-  },
-  {
-    "points": 0,
-    "id": 63300440,
-    "name": "Dragon Shield",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Equip only to a Dragon-Type monster. It cannot be destroyed by battle or by card effects. Neither player takes any battle damage from attacks involving it.",
-    "archetype": null,
-    "image": "images/63300440.jpg"
-  },
-  {
-    "points": 0,
-    "id": 30502181,
-    "name": "Lightsworn Sabre",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Equip only to a \"Lightsworn\" monster. It gains 700 ATK. When this card is sent from your Deck to the Graveyard: You can target 1 \"Lightsworn\" monster you control; equip this card to that target.",
-    "archetype": "Lightsworn",
-    "image": "images/30502181.jpg"
-  },
-  {
-    "points": 0,
-    "id": 12760674,
-    "name": "Mordschlag",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Equip only to a Normal Summoned/Set monster you control. It is unaffected by your opponent's activated effects of Special Summoned monsters. During damage calculation, if the equipped monster battles an opponent's Special Summoned monster: That opponent's monster loses ATK/DEF equal to the equipped monster's original ATK, during that damage calculation only.",
-    "archetype": null,
-    "image": "images/12760674.jpg"
-  },
-  {
-    "points": 7,
-    "id": 66947913,
-    "name": "Rising Fire",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "(This card is always treated as a \"Salamangreat\" card.)\r\nIf you control no monsters: Activate this card by targeting 1 FIRE monster in your GY; Special Summon it and equip it with this card. The equipped monster gains 500 ATK. When this card leaves the field, destroy that monster. If this card in your possession is destroyed by an opponent's card effect: You can banish 1 monster on the field. You can only use each effect of \"Rising Fire\" once per turn.",
-    "archetype": "Salamangreat",
-    "image": "images/66947913.jpg"
-  },
-  {
-    "points": 0,
-    "id": 78794994,
-    "name": "Symbols of Duty",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Send 1 Normal Monster you control to the Graveyard, then target 1 monster in either player's Graveyard; Special Summon it, and if you do, equip this card to it. When this card leaves the field, destroy the equipped monster.",
-    "archetype": null,
-    "image": "images/78794994.jpg"
-  },
-  {
-    "points": 0,
-    "id": 68392533,
-    "name": "Telekinetic Charging Cell",
-    "type": "Spell Card",
-    "race": "Equip",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Equip only to a Psychic-Type monster. You do not have to pay Life Points to activate its effect(s). When the equipped monster is destroyed and this card is sent to the Graveyard, you can pay 1000 Life Points to return this card to your hand.",
-    "archetype": null,
-    "image": "images/68392533.jpg"
-  },
-  {
-    "points": 0,
-    "id": 90743290,
-    "name": "Hermit of Prophecy",
-    "type": "Effect Monster",
-    "race": "Spellcaster",
-    "attribute": "EARTH",
-    "level": 3,
-    "atk": 1200,
-    "def": 700,
-    "desc": "Each time a \"Spellbook\" Spell Card is activated, increase this card's Level by 2 and ATK by 300.",
-    "archetype": "Spellbook",
-    "image": "images/90743290.jpg"
-  },
-  {
-    "points": 0,
-    "id": 71545247,
-    "name": "Cursed Bride Doll",
-    "type": "Tuner Monster",
-    "race": "Spellcaster",
-    "attribute": "EARTH",
-    "level": 3,
-    "atk": 0,
-    "def": 2100,
-    "desc": "When you draw this card: You can reveal it; Special Summon this card. At the start of each Battle Phase: If there are more cards in your Deck than your opponent's, this card gains ATK equal to the difference x 300, until the end of this turn. Once per turn, during the End Phase, if this card is in the GY because it was sent there this turn: Place this card on top of the Deck.",
-    "archetype": null,
-    "image": "images/71545247.jpg"
-  },
-  {
-    "points": 0,
-    "id": 98239899,
-    "name": "Blast with Chain",
-    "type": "Trap Card",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Target 1 face-up monster you control; equip this card to that target. It gains 500 ATK. If this card is destroyed by a card effect while equipped: Target 1 card on the field; destroy that target.",
-    "archetype": null,
-    "image": "images/98239899.jpg"
-  },
-  {
-    "points": 3,
-    "id": 32126000,
-    "name": "Learning Elf",
-    "type": "Effect Monster",
-    "race": "Spellcaster",
-    "attribute": "LIGHT",
-    "level": 3,
-    "atk": 1400,
-    "def": 1500,
-    "desc": "If this card is Normal or Special Summoned: You can Set 1 Trap from your Deck with an effect that equips itself to a monster. If this card is sent from the field to the GY: You can draw 1 card. You can only use each effect of \"Learning Elf\" once per turn.",
-    "archetype": null,
-    "image": "images/32126000.jpg"
-  },
-  {
-    "points": 0,
-    "id": 23122036,
-    "name": "Intrigue Shield",
-    "type": "Trap Card",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Target 1 face-up monster you control; equip this card to that target. Once per turn, while the equipped monster is in Attack Position, it cannot be destroyed by battle. You take no battle damage from attacks involving it.",
-    "archetype": null,
-    "image": "images/23122036.jpg"
-  },
-  {
-    "points": 0,
-    "id": 54451023,
-    "name": "Plant Food Chain",
-    "type": "Trap Card",
-    "race": "Normal",
-    "attribute": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "desc": "Target 1 Plant-Type monster you control; equip this card to that target. It gains 500 ATK. If this card is destroyed by a card effect while equipped: You can target 1 Plant-Type monster in your Graveyard; Special Summon that target.",
-    "archetype": null,
-    "image": "images/54451023.jpg"
   }
 ]
