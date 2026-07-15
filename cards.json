@@ -6252,7 +6252,7 @@
   {
     "id": 97396380,
     "name": "Fencing Fire Ferret",
-    "points": 0,
+    "points": 1,
     "type": "Effect Monster",
     "race": "Beast",
     "attribute": "FIRE",
