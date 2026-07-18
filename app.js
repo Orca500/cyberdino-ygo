@@ -534,13 +534,14 @@ if (rulesText) {
         rulesContent.id = "rulesContent";
         rulesContent.className = "lightboxPanel";
         rulesContent.innerHTML = `
-            <p>Build a deck from these cards! Standard Yugioh rules apply (40-60 cards in your main deck, 0-15 cards in extra deck, 0-15 cards in side deck, max. 3 copies of any one card).</p>
-            <p>No banned cards! Instead, players have 100 points to spend between their main, extra, and side deck. Use your points on numerous strong cards, or splurge for cards so powerful they were banned for most of Yugioh's history; specialize however you want! If a card has no point badge on it, it costs 0.</p>
-            <p>This format's point system is borrowed directly from Yugioh's official Genesys format. Cyberdino is much lower power than Genesys, targeting a speed/feel similar to Edison format (2010 Yugioh).</p>
+            <p>Build a deck using only cards on this website. Standard rules apply (40-60 cards in your main deck, 0-15 cards in extra deck, 0-15 cards in side deck, max. 3 copies of any one card).</p>
+            <p>No banlist! Instead, players have 100 points to spend between their main, extra, and side deck. Use your points on a core of strong staples, or splurge for powerful cards that you can't play anywhere else; specialize however you want. If a card has no point badge on it, it costs 0.</p>
+            <p>This format's point system is borrowed directly from Yugioh's official Genesys format. Century is much lower power than Genesys, targeting a speed/feel similar to Edison format (2010 Yugioh).</p>
+            <p>If a card has a "PRE-ERRATA" badge on it, that means that we're playing with the pre-errata version that you see here on the site. Many iconic cards have officially been nerfed by errata.</p>
             <p>
-                The snappiest, snazziest place to build decks and play for free is DuelingBook: 
-                <a href="https://www.duelingbook.com/" target="_blank" rel="noopener noreferrer">
-    DuelingBook
+                The snappiest, snazziest place to build decks and play for free is YGO Omega: 
+                <a href="https://omega.duelistsunite.org/" target="_blank" rel="noopener noreferrer">
+    YGO Omega
 </a>
             </p>
             <p>
