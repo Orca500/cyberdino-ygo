@@ -1,8 +1,44 @@
 let cards = [];
+let cardAssetVersion = "";
+
+function createContentVersion(text) {
+    let hash = 2166136261;
+
+    for (let i = 0; i < text.length; i += 1) {
+        hash ^= text.charCodeAt(i);
+        hash = Math.imul(hash, 16777619);
+    }
+
+    return (hash >>> 0).toString(36);
+}
+
+function getVersionedCardImage(imageUrl) {
+    if (!imageUrl || !cardAssetVersion) {
+        return imageUrl;
+    }
+
+    try {
+        const url = new URL(imageUrl, window.location.href);
+        url.searchParams.set("cards", cardAssetVersion);
+        return url.href;
+    } catch (error) {
+        const separator = imageUrl.includes("?") ? "&" : "?";
+        return `${imageUrl}${separator}cards=${encodeURIComponent(cardAssetVersion)}`;
+    }
+}
 
 async function loadCards() {
-    const response = await fetch("cards.json");
-    cards = await response.json();
+    const response = await fetch(`cards.json?v=${Date.now()}`, {
+        cache: "no-store"
+    });
+
+    if (!response.ok) {
+        throw new Error(`Unable to load cards.json (${response.status})`);
+    }
+
+    const jsonText = await response.text();
+    cardAssetVersion = createContentVersion(jsonText);
+    cards = JSON.parse(jsonText);
 
     populateFilters();
 
@@ -407,8 +443,10 @@ filtered.forEach(card => {
         const img =
             document.createElement("img");
 
+        const cardImageUrl = getVersionedCardImage(card.image);
+
         img.loading = "lazy";
-        img.dataset.src = card.image;
+        img.dataset.src = cardImageUrl;
         imageObserver.observe(img);
         img.alt = card.name;
 
@@ -450,11 +488,11 @@ filtered.forEach(card => {
 
             preloader.onload = () => {
                 lightbox.classList.remove("rules-mode", "decks-mode");
-                lightboxImage.src = card.image;
+                lightboxImage.src = cardImageUrl;
                 lightbox.classList.add("active");
             };
 
-            preloader.src = card.image;
+            preloader.src = cardImageUrl;
         });
 
         grid.appendChild(div);
@@ -474,6 +512,18 @@ function closeLightbox() {
 
     lightbox.classList.remove("active", "rules-mode", "decks-mode");
     lightboxImage.removeAttribute("src");
+}
+
+function handleLightboxPanelClick(event) {
+    const clickedLink =
+        event.target instanceof Element &&
+        event.target.closest("a");
+
+    event.stopPropagation();
+
+    if (!clickedLink) {
+        closeLightbox();
+    }
 }
 
 document
@@ -497,7 +547,11 @@ document.querySelectorAll("#filters input, #filters select").forEach(el => {
     }
 });
 
-loadCards();
+loadCards().catch(error => {
+    console.error(error);
+    document.getElementById("stats").textContent =
+        "Cards could not be loaded. Please refresh the page.";
+});
 
 
 const lightboxImage = document.getElementById("lightboxImage");
@@ -554,9 +608,7 @@ if (rulesText) {
         lightbox.appendChild(rulesContent);
     }
 
-    rulesContent.addEventListener("click", event => {
-        event.stopPropagation();
-    });
+    rulesContent.addEventListener("click", handleLightboxPanelClick);
 
     rulesText.addEventListener("click", event => {
         event.stopPropagation();
@@ -572,9 +624,7 @@ const decksContent = document.getElementById("decksContent");
 if (decksText && decksContent) {
     const lightbox = document.getElementById("lightbox");
 
-    decksContent.addEventListener("click", event => {
-        event.stopPropagation();
-    });
+    decksContent.addEventListener("click", handleLightboxPanelClick);
 
     decksText.addEventListener("click", event => {
         event.stopPropagation();
