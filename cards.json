@@ -266,6 +266,20 @@
     "archetype": "Mystical Beast of the Forest"
   },
   {
+    "points": 3,
+    "id": 27632240,
+    "name": "Altitude Knight",
+    "type": "Effect Monster",
+    "race": "Warrior",
+    "attribute": "WIND",
+    "level": 4,
+    "atk": 1400,
+    "def": 1200,
+    "desc": "Once per turn, if another monster on the field returns to the hand or Main Deck: Send 1 WIND monster from your Deck to the Graveyard.",
+    "archetype": null,
+    "image": "images/27632240.jpg"
+  },
+  {
     "id": 18988391,
     "name": "Amarylease",
     "points": 0,
@@ -867,6 +881,20 @@
     "desc": "1 Tuner + 1+ non-Tuner monsters\r\nIf this card is Synchro Summoned: It gains 800 ATK for each card currently in your hand. When this card you control is destroyed by your opponent's card and sent to your GY, if all of the monsters that were used for the Synchro Summon of this card are in your GY: You can Special Summon all of them, but their effects are negated. You can only use this effect of \"Ascension Sky Dragon\" once per turn.",
     "archetype": null,
     "image": "images/37910722.jpg"
+  },
+  {
+    "points": 7,
+    "id": 14558127,
+    "name": "Ash Blossom & Joyous Spring",
+    "type": "Tuner Monster",
+    "race": "Zombie",
+    "attribute": "FIRE",
+    "level": 3,
+    "atk": 0,
+    "def": 1800,
+    "desc": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\r\n● Add a card from the Deck to the hand.\r\n● Special Summon from the Deck.\r\n● Send a card from the Deck to the GY.\r\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+    "archetype": null,
+    "image": "images/14558127.jpg"
   },
   {
     "id": 72714226,
@@ -2047,7 +2075,7 @@
   {
     "id": 59822133,
     "name": "Blue-Eyes Spirit Dragon",
-    "points": 5,
+    "points": 3,
     "type": "Synchro Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -2075,7 +2103,7 @@
   {
     "id": 89604813,
     "name": "Blue-Eyes Ultimate Spirit Dragon",
-    "points": 7,
+    "points": 5,
     "type": "Synchro Monster",
     "race": "Dragon",
     "attribute": "LIGHT",
@@ -2371,7 +2399,7 @@
   {
     "id": 36569343,
     "name": "Brushfire Knight",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "FIRE",
@@ -2483,7 +2511,7 @@
   {
     "id": 35011819,
     "name": "By Order of the Emperor",
-    "points": 10,
+    "points": 7,
     "type": "Trap Card",
     "race": "Continuous",
     "attribute": null,
@@ -3730,7 +3758,7 @@
   {
     "id": 33093439,
     "name": "Cyber Eltanin",
-    "points": 25,
+    "points": 20,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "LIGHT",
@@ -3772,7 +3800,7 @@
   {
     "id": 34124316,
     "name": "Cyber Jar",
-    "points": 25,
+    "points": 20,
     "type": "Flip Effect Monster",
     "race": "Rock",
     "attribute": "DARK",
@@ -4403,7 +4431,7 @@
   {
     "id": 38107923,
     "name": "Dark Nephthys",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Winged Beast",
     "attribute": "DARK",
@@ -4585,7 +4613,7 @@
   {
     "id": 6351548,
     "name": "Dawn Knight",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -4823,7 +4851,7 @@
   {
     "id": 56570271,
     "name": "Destiny HERO - Disk Commander",
-    "points": 7,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "DARK",
@@ -5454,7 +5482,7 @@
   {
     "id": 35195612,
     "name": "Dust Knight",
-    "points": 5,
+    "points": 3,
     "type": "Flip Effect Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -5594,7 +5622,7 @@
   {
     "id": 97268402,
     "name": "Effect Veiler",
-    "points": 1,
+    "points": 0,
     "type": "Tuner Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -5664,7 +5692,7 @@
   {
     "id": 63060238,
     "name": "Elemental HERO Blazeman",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "FIRE",
@@ -5692,7 +5720,7 @@
   {
     "id": 95486586,
     "name": "Elemental HERO Core",
-    "points": 5,
+    "points": 3,
     "type": "Fusion Monster",
     "race": "Warrior",
     "attribute": "EARTH",
@@ -5776,7 +5804,7 @@
   {
     "id": 22908820,
     "name": "Elemental HERO Sunrise",
-    "points": 7,
+    "points": 5,
     "type": "Fusion Monster",
     "race": "Warrior",
     "attribute": "LIGHT",
@@ -5827,20 +5855,6 @@
     "def": 1800,
     "desc": "This card cannot be Special Summoned. You can Normal Summon this card with 1 Tribute. If you do, it becomes Level 5 and its original ATK and DEF are halved.",
     "image": "images/42685062.jpg",
-    "archetype": null
-  },
-  {
-    "id": 87462901,
-    "name": "Emissary from the House of Wax",
-    "points": 10,
-    "type": "Effect Monster",
-    "race": "Illusion",
-    "attribute": "FIRE",
-    "level": 3,
-    "atk": 800,
-    "def": 1800,
-    "desc": "When an opponent's monster declares an attack: You can Special Summon this card from your hand. You can only use this effect of \"Emissary from the House of Wax\" once per turn. If this card battles a monster, neither can be destroyed by that battle. At the end of your opponent's Battle Phase: You can activate this effect; until the start of your opponent's next Battle Phase, all Attack Position monsters your opponent currently controls cannot change their battle positions, nor be used as material for a Fusion, Synchro, Xyz, or Link Summon, also their effects are negated.",
-    "image": "images/87462901.jpg",
     "archetype": null
   },
   {
@@ -7245,6 +7259,20 @@
     "archetype": null
   },
   {
+    "points": 0,
+    "id": 95178994,
+    "name": "Giant Germ",
+    "type": "Effect Monster",
+    "race": "Fiend",
+    "attribute": "DARK",
+    "level": 2,
+    "atk": 1000,
+    "def": 100,
+    "desc": "When this card is destroyed by battle and sent to the Graveyard: Inflict 500 damage to your opponent, then you can Special Summon any number of \"Giant Germs\" from your Deck in face-up Attack Position.",
+    "archetype": null,
+    "image": "images/95178994.jpg"
+  },
+  {
     "id": 97017120,
     "name": "Giant Rat",
     "points": 0,
@@ -7663,20 +7691,6 @@
     "desc": "Add 1 Level 4 or lower \"Gladiator Beast\" monster from your Deck to your hand.",
     "image": "images/35224440.jpg",
     "archetype": "Gladiator Beast"
-  },
-  {
-    "id": 92964816,
-    "name": "Glow-Up Bloom",
-    "points": 10,
-    "type": "Tuner Monster",
-    "race": "Zombie",
-    "attribute": "DARK",
-    "level": 1,
-    "atk": 0,
-    "def": 0,
-    "desc": "If this card is sent to the GY: You can banish this card from your GY; add 1 Level 5 or higher Zombie monster from your Deck to your hand, or, if \"Zombie World\" is in a Field Zone, you can Special Summon it from your Deck instead, also, in either case, you cannot Special Summon monsters for the rest of this turn, except Zombie monsters. You can only use this effect of \"Glow-Up Bloom\" once per turn.",
-    "image": "images/92964816.jpg",
-    "archetype": null
   },
   {
     "id": 67441435,
@@ -8801,6 +8815,20 @@
     "archetype": null
   },
   {
+    "points": 0,
+    "id": 99328137,
+    "name": "Ice Knight",
+    "type": "Effect Monster",
+    "race": "Aqua",
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 1300,
+    "def": 1200,
+    "desc": "Gains 400 ATK for each Aqua monster you control. Once per turn: You can activate this effect; you can Normal Summon 1 WATER monster during your Main Phase this turn, in addition to your Normal Summon/Set (you can only gain this effect once per turn), also you cannot Normal or Special Summon monsters for the rest of this turn, except WATER monsters.",
+    "archetype": null,
+    "image": "images/99328137.jpg"
+  },
+  {
     "id": 4825390,
     "name": "Ichiroku's Ledger Book",
     "points": 5,
@@ -8943,7 +8971,7 @@
   {
     "id": 10045474,
     "name": "Infinite Impermanence",
-    "points": 1,
+    "points": 0,
     "type": "Trap Card",
     "race": "Normal",
     "attribute": null,
@@ -9517,7 +9545,7 @@
   {
     "id": 79109599,
     "name": "King of the Swamp",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Aqua",
     "attribute": "WATER",
@@ -10371,7 +10399,7 @@
   {
     "id": 22624373,
     "name": "Lyla, Lightsworn Sorceress",
-    "points": 1,
+    "points": 0,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "LIGHT",
@@ -11044,7 +11072,7 @@
   {
     "id": 58471134,
     "name": "Mermail Abysspike",
-    "points": 2,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Fish",
     "attribute": "WATER",
@@ -11828,7 +11856,7 @@
   {
     "id": 54757758,
     "name": "Mudragon of the Swamp",
-    "points": 12,
+    "points": 10,
     "type": "Fusion Monster",
     "race": "Wyrm",
     "attribute": "WATER",
@@ -13074,7 +13102,7 @@
   {
     "id": 33420078,
     "name": "Plaguespreader Zombie",
-    "points": 10,
+    "points": 7,
     "type": "Tuner Monster",
     "race": "Zombie",
     "attribute": "DARK",
@@ -13298,7 +13326,7 @@
   {
     "id": 91559748,
     "name": "Prickle Fairy",
-    "points": 10,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "EARTH",
@@ -13732,7 +13760,7 @@
   {
     "id": 23571046,
     "name": "Quillbolt Hedgehog",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Machine",
     "attribute": "EARTH",
@@ -15066,7 +15094,7 @@
   {
     "id": 80529459,
     "name": "Scrap Raptor",
-    "points": 7,
+    "points": 5,
     "type": "Tuner Monster",
     "race": "Dinosaur",
     "attribute": "EARTH",
@@ -15398,6 +15426,20 @@
     "desc": "When this card is Normal Summoned: You can target 1 Set card in your opponent's Spell & Trap Card Zone; reveal that target, then destroy it if it is a Trap Card. Otherwise, return it to its original position. When you destroy a Trap Card by this effect: You can Special Summon 1 Level 3 EARTH monster from your hand in face-up Defense Position.",
     "image": "images/41493640.jpg",
     "archetype": null
+  },
+  {
+    "points": 3,
+    "id": 14771222,
+    "name": "Shore Knight",
+    "type": "Effect Monster",
+    "race": "Warrior",
+    "attribute": "WATER",
+    "level": 4,
+    "atk": 1400,
+    "def": 1200,
+    "desc": "Once per turn, if the battle position of this face-up card on the field is changed: Send 1 WATER monster from your Deck to the GY.",
+    "archetype": null,
+    "image": "images/14771222.jpg"
   },
   {
     "id": 3603242,
@@ -16145,7 +16187,7 @@
   {
     "id": 14824019,
     "name": "Spellbook Magician of Prophecy",
-    "points": 2,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Spellcaster",
     "attribute": "WATER",
@@ -16215,7 +16257,7 @@
   {
     "id": 25123082,
     "name": "Spellbook of Power",
-    "points": 3,
+    "points": 0,
     "type": "Spell Card",
     "race": "Normal",
     "attribute": null,
@@ -16999,7 +17041,7 @@
   {
     "id": 48130397,
     "name": "Super Polymerization",
-    "points": 30,
+    "points": 25,
     "type": "Spell Card",
     "race": "Quick-Play",
     "attribute": null,
@@ -17279,7 +17321,7 @@
   {
     "id": 80190753,
     "name": "Talaya, Princess of Cherry Blossoms",
-    "points": 12,
+    "points": 10,
     "type": "Effect Monster",
     "race": "Plant",
     "attribute": "WATER",
@@ -17797,7 +17839,7 @@
   {
     "id": 71564252,
     "name": "Thunder King Rai-Oh",
-    "points": 5,
+    "points": 3,
     "type": "Effect Monster",
     "race": "Thunder",
     "attribute": "LIGHT",
@@ -17863,6 +17905,20 @@
     "desc": "During either player's turn: You can discard this card, then target 1 Psychic-Type monster you control; banish it until your next Standby Phase.",
     "image": "images/73625877.jpg",
     "archetype": null
+  },
+  {
+    "points": 10,
+    "id": 35316708,
+    "name": "Time Seal",
+    "type": "Trap Card",
+    "race": "Normal",
+    "attribute": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "desc": "Skip the Draw Phase of your opponent's next turn.",
+    "archetype": null,
+    "image": "images/35316708.jpg"
   },
   {
     "id": 71625222,
@@ -18708,7 +18764,7 @@
   {
     "id": 99348756,
     "name": "Valkyrian Knight",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Warrior",
     "attribute": "FIRE",
@@ -19661,7 +19717,7 @@
   {
     "id": 81616639,
     "name": "Zombina",
-    "points": 7,
+    "points": 5,
     "type": "Effect Monster",
     "race": "Zombie",
     "attribute": "EARTH",
